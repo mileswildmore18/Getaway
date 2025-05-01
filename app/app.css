@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/*custom color themes of the website*/
+@theme {
+   --color-amber-50: #fbd387;
+    --color-blue-50: #d8f9fb;
+    --color-blue-100: #c2f6fb;
+    --color-blue-200: #9df0f8;
+    --color-blue-300: #6be3f1;
+    --color-green-100: #d0ffba;
+    --color-green-200: #9afd85;
+    --color-yellow-200: #f8d44d;
+
+}
