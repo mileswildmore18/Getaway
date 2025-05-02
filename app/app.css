@@ -20,3 +20,14 @@
     @apply flex flex-col justify-center text-2xl w-full;
  }
 }
+/* Properties for the home page section*/
+.home {
+  @apply flex flex-col gap-6 w-full pb-15;
+
+ .container {
+  @apply flex flex-col gap-6 mt-3;
+  h1 {
+   @apply text-lg font-bold text-gray-500 p-6;
+  }
+ }
+}
