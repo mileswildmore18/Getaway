@@ -46,3 +46,4 @@ export const addresses = [
         estimatedPrice: "$1000"
     }
 ]
+
