@@ -28,7 +28,7 @@ const Home = () => {
                             tags={tags}
                         />
                     ))}
-            </div>
+                </div>
             </section>
             {/*End of Rent*/}
 

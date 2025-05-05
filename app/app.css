@@ -18,15 +18,14 @@
 
 /* Properties for the header*/
 .header {
- @apply font-bold flex justify-center bg-yellow-200 text-green-800 p-6;
+ @apply font-bold flex justify-center w-full bg-yellow-200 text-green-800 p-6;
   article {
     @apply flex flex-col justify-center text-2xl w-full;
  }
 }
 /* Properties for the home page section*/
 .home {
-  @apply flex flex-col gap-6 w-full pb-15;
-
+  @apply flex flex-col gap-6 w-full pb-15 items-center;
  .container {
   @apply flex flex-col gap-6 mt-3;
  }

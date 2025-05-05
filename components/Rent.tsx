@@ -4,7 +4,7 @@ import {Link} from "react-router";
 const Rent = ({id, name, imageUrl, location, tags} : HouseAddress) => {
 
     return (
-        <Link to={{
+            <Link to={{
             pathname: `/rent/${id}`,
             search: `?name=${name}&location=${location}&tags=${tags}`
         }}
