@@ -47,3 +47,26 @@ export const addresses = [
     }
 ]
 
+export const locations = [{
+    id: 1,
+    name: "Clearwater Beach",
+    imageUrl: ['/assets/images/file.jpg'],
+    location: "Clearwater",
+    tags: ['']
+},
+    {
+        id: 2,
+        name: "Dunedin Beach",
+        imageUrl: ['/assets/images/file.jpg'],
+        location: "Dunedin",
+        tags: ['']
+    },
+    {
+        id: 3,
+        name: "Honeymoon Island",
+        imageUrl: ['/assets/images/file.jpg'],
+        location: "Honeymoon",
+        tags: ['']
+    }
+]
+

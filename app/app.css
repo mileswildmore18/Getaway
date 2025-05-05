@@ -10,6 +10,7 @@
     --color-green-100: #d0ffba;
     --color-green-200: #9afd85;
     --color-yellow-200: #f8d44d;
+ --color-dark-100: #1b1a1a;
 
 }
 
@@ -27,7 +28,34 @@
  .container {
   @apply flex flex-col gap-6 mt-3;
   h1 {
-   @apply text-lg font-bold text-gray-500 p-6;
+   @apply text-xl font-bold text-gray-600 p-6;
   }
  }
+}
+/* Properties for the rent component*/
+.rent {
+ @apply bg-white flex flex-col w-full p-6 relative;
+ img {
+  @apply w-full h-[170px] object-cover;
+ }
+}
+
+/*Properties for the utilities*/
+@layer utilities {
+ .flex-center {
+  @apply flex justify-center items-center;
+ }
+ .flex-between {
+  @apply flex justify-between items-center;
+ }
+ .rent-card {
+  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6;
+ }
+}
+
+/*Properties for the html and body of the website*/
+html,
+body {
+  font-family: sans-serif, Arial;
+ scroll-behavior: smooth;
 }
