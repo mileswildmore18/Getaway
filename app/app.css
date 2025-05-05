@@ -14,6 +14,8 @@
 
 }
 
+@layer components {
+
 /* Properties for the header*/
 .header {
  @apply font-bold flex justify-center bg-yellow-200 text-green-800 p-6;
@@ -27,16 +29,19 @@
 
  .container {
   @apply flex flex-col gap-6 mt-3;
-  h1 {
-   @apply text-xl font-bold text-gray-600 p-6;
-  }
  }
 }
 /* Properties for the rent component*/
 .rent {
- @apply bg-white flex flex-col w-full p-6 relative;
+ @apply flex flex-col p-6 relative;
  img {
-  @apply w-full h-[170px] object-cover;
+  @apply w-full h-[200px] object-cover;
+ }
+ article {
+  @apply flex flex-col gap-3 mt-3;
+  h2 {
+   @apply text-xl font-bold text-gray-600;
+  }
  }
 }
 
@@ -49,7 +54,7 @@
   @apply flex justify-between items-center;
  }
  .rent-card {
-  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6;
+  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5;
  }
 }
 
@@ -58,4 +63,6 @@ html,
 body {
   font-family: sans-serif, Arial;
  scroll-behavior: smooth;
+ background-color: var(--color-blue-50);
+ }
 }

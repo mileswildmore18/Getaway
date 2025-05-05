@@ -1,4 +1,4 @@
-// House data
+// House data on location selected (Price you can change if you want)
 export const addresses = [
     {
         id: 1,
@@ -47,6 +47,7 @@ export const addresses = [
     }
 ]
 
+// Location details and photos on Home page
 export const locations = [{
     id: 1,
     name: "Clearwater Beach",

@@ -15,10 +15,19 @@ const Home = () => {
 
             {/* Rent */}
             <section className="container">
-                <h1 className="text-xl font-semibold text-dark-100">Houses for sale</h1>
+                <h1 className="text-4xl text-gray-600 font-semibold text-dark-100 flex justify-center">Houses for sale</h1>
                     {/* Add pictures of Houses and locations*/}
                 <div className="rent-card">
-
+                    {locations.map(({id, name, imageUrl, location, tags}) => (
+                        <Rent
+                            key={id}
+                            id={id.toString()}
+                            name={name}
+                            imageUrl={imageUrl[0]}
+                            location={location}
+                            tags={tags}
+                        />
+                    ))}
             </div>
             </section>
             {/*End of Rent*/}

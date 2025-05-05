@@ -13,7 +13,7 @@ const Rent = ({id, name, imageUrl, location, tags} : HouseAddress) => {
             <img src={imageUrl} alt={name}/>
 
             <article>
-                <h2>{name}</h2>
+                <h2 className="flex justify-center">{name}</h2>
             </article>
         </Link>
     )
