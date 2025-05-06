@@ -12,7 +12,7 @@ const Header = ({title, description} : Props) => {
 
             {/* Title and Description of the website*/}
             <article>
-                <h1 className={cn("text-5xl font-bold flex justify-center bg-yellow-200 text-green-800 p-6")}>{title}</h1>
+                <h1 className={cn("text-8xl font-bold flex justify-center items-center")}>{title}</h1>
                 <p className={cn("text-2xl font-bold flex justify-center bg-yellow-200 text-green-800 p-6")}>{description}</p>
             </article>
             {/*End of Title and Description*/}

@@ -2,6 +2,7 @@
 import  {locations} from "~/constants";
 import Header from "../../components/Header";
 import Rent from "../../components/Rent";
+import Footer from "../../components/Footer";
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
 
             {/* Rent */}
             <section className="container">
-                <h1 className="text-4xl text-gray-600 font-semibold text-dark-100 flex justify-center">Houses for sale</h1>
+                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center">Chose your dream house</h1>
                     {/* Add pictures of Houses and locations*/}
                 <div className="rent-card">
                     {locations.map(({id, name, imageUrl, location, tags}) => (
@@ -31,8 +32,9 @@ const Home = () => {
                 </div>
             </section>
             {/*End of Rent*/}
-
+            <Footer />
         </main>
+
     )
 }
 export default Home
