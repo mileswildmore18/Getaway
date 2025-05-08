@@ -2,11 +2,12 @@
 export const addresses = [
     {
         id: 1,
-        name: "Gulf GetAway",
-        imageUrls: [''],
-        itinerary: [{location:""}],
+        name: "Clearwater Beach",
+        imageUrls: ['Clearwater-home.jpg', 'Clearwater-home2.jpg', 'Clearwater-home3.jpg', 'Clearwater-home4.jpg', 'Clearwater-home5.jpg' ,'Clearwater-home6.jpg', 'Clearwater-home7.jpg', 'Clearwater-home8.jpg'],
+        itinerary: [{location:"Clearwater"}],
         tags: [''],
-        description: "",
+        address: "9 Cambria St. Clearwater, FL 33767",
+        description: "5 guests . 2 bedrooms. 4 beds. 2 baths",
         estimatedPrice: "$1000"
     },
     {
@@ -36,22 +37,13 @@ export const addresses = [
         description: "",
         estimatedPrice: "$1000"
     },
-    {
-        id: 5,
-        name: "Gulf GetAway",
-        imageUrls: [''],
-        itinerary: [{location:""}],
-        tags: [''],
-        description: "",
-        estimatedPrice: "$1000"
-    }
 ]
 
 // Location details and photos on Home page
 export const locations = [{
     id: 1,
     name: "Clearwater Beach",
-    imageUrl: ['/assets/images/file.jpg'],
+    imageUrl: ['/assets/images/Clearwater-Beach.jpg'],
     location: "Clearwater",
     tags: ['']
 },
@@ -64,10 +56,17 @@ export const locations = [{
     },
     {
         id: 3,
-        name: "Honeymoon Island",
+        name: "Tarpon Springs",
         imageUrl: ['/assets/images/file.jpg'],
-        location: "Honeymoon",
+        location: "Tarpon Springs",
         tags: ['']
-    }
+    },
+    {
+        id: 4,
+        name: "Waynesville",
+        imageUrl: ['/assets/images/file.jpg'],
+        location: "Waynesville, North Carolina",
+        tags: ['']
+    },
 ]
 

@@ -4,6 +4,7 @@ declare interface House {
     imageUrls: string[],
     itinerary: {location: string}[],
     tags: string[],
+    address: string,
     description: string,
     estimatedPrice: string
 }

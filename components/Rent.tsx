@@ -1,11 +1,11 @@
-import {Link} from "react-router";
+import {Link } from "react-router";
 
 
 const Rent = ({id, name, imageUrl, location, tags} : HouseAddress) => {
 
     return (
             <Link to={{
-            pathname: `/rent/${id}`,
+            pathname: `/dreamhouse/${id}`,
             search: `?name=${name}&location=${location}&tags=${tags}`
         }}
         className="rent"

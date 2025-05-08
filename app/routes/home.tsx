@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Rent from "../../components/Rent";
 import Footer from "../../components/Footer";
 
+
 const Home = () => {
     return (
         <main className="home">
