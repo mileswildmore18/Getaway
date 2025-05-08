@@ -5,7 +5,7 @@ const Rent = ({id, name, imageUrl, location, tags} : HouseAddress) => {
 
     return (
             <Link to={{
-            pathname: `/dreamhouse/${id}`,
+            pathname: `/dreamhouse/`,
             search: `?name=${name}&location=${location}&tags=${tags}`
         }}
         className="rent"
