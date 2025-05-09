@@ -9,6 +9,7 @@ const Photos = () => {
     const address = addresses[0];
     return (
         <div className="p-4">
+            <img src="/assets/images/Clearwater-Beach.jpg" alt={address.name}/>
            <h2 className="text-xl font-bold">{address.name}</h2>
             <p className="text-gray-600">{address.description}</p>
             <p className="text-gray-500">{address.address}</p>
@@ -26,7 +27,7 @@ const Photos = () => {
                     {address.imageUrls.map((imageUrl, index ) => (
                         <img
                         key={index}
-                        src={`/images/${imageUrl}`}
+                        src={`assets/images/${imageUrl}`}
                         alt={`Photo ${index + 1}`}
                         className="w-full h-auto rounded shadow"
                         />

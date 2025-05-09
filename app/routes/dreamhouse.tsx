@@ -19,7 +19,7 @@ const Dreamhouse = () => {
             <section className="container">
                 <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center">More photos</h1>
                 {/* Add pictures of House inside and out*/}
-                <div className="rent-card">
+                <div className="rent-card-item">
                         <Photos />
 
                 </div>
