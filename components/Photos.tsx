@@ -8,12 +8,16 @@ const Photos = () => {
     const [showPhotos, setPhotos] = useState(false);
     const address = addresses[0];
     return (
+        //
         <div className="p-4">
             <img src="/assets/images/Clearwater-Beach.jpg" alt={address.name}/>
-           <h2 className="text-xl font-bold">{address.name}</h2>
+
+           {/* Name, Description, Address, Price */}
+           <h2 className="text-3xl font-bold">{address.name}</h2>
             <p className="text-gray-600">{address.description}</p>
             <p className="text-gray-500">{address.address}</p>
             <p className="text-greem-600 font-semibold">{address.estimatedPrice}</p>
+            <h3 className="text-2xl font-bold text-blue-600">Contact Us: 727-288-8354 </h3>
             {/* Button to show or hide photos*/}
             <button
                 onClick={() => setPhotos(!showPhotos)}
@@ -21,18 +25,21 @@ const Photos = () => {
             >
                 {showPhotos ? "Hide Photos" : "See More Photos"}
             </button>
+            {/* End of Button*/}
 
+            {/* More photos*/}
             {showPhotos && (
                 <div className="grid grid-cols-2 gap-4 mt-4">
                     {address.imageUrls.map((imageUrl, index ) => (
                         <img
                         key={index}
-                        src={`assets/images/${imageUrl}`}
-                        alt={`Photo ${index + 1}`}
+                        src={`/assets/images/${imageUrl}`}
+                        alt={`Clearwater ${index + 1}`}
                         className="w-full h-auto rounded shadow"
                         />
                     ))}
                 </div>
+            //     End of More photos
             )}
         </div>
     )
