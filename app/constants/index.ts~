@@ -31,7 +31,7 @@ export const addresses = [
     {
         id: 4,
         name: "Waynesville",
-        imageUrls: ['Waynesville-Backyard.jpg'],
+        imageUrls: [''],
         itinerary: [{location:"North Carolina"}],
         tags: [''],
         description: "",

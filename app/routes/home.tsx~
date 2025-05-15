@@ -22,7 +22,7 @@ const Home = () => {
                     {locations.map(({id, name, imageUrl, location, tags}) => (
                         <Rent
                             key={id}
-                            id={id}
+                            id={id.toString()}
                             name={name}
                             imageUrl={imageUrl[0]}
                             location={location}
