@@ -3,7 +3,7 @@ import {addresses } from "~/constants/";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Photos from "../../components/Photos";
-
+import DreamHouseId from "./id/DreamHouseId";
 
 const Dreamhouse = () => {
     return (

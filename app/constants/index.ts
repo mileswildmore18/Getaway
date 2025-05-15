@@ -10,33 +10,33 @@ export const addresses = [
         description: "5 guests . 2 bedrooms. 4 beds. 2 baths",
         estimatedPrice: "$1000"
     },
-    // {
-    //     id: 2,
-    //     name: "Dunedin Beach",
-    //     imageUrls: [''],
-    //     itinerary: [{location:"Dunedin"}],
-    //     tags: [''],
-    //     description: "",
-    //     estimatedPrice: "$900"
-    // },
-    // {
-    //     id: 3,
-    //     name: "Tarpon Springs",
-    //     imageUrls: [''],
-    //     itinerary: [{location:"Tarpon Springs"}],
-    //     tags: [''],
-    //     description: "",
-    //     estimatedPrice: "$8000"
-    // },
-    // {
-    //     id: 4,
-    //     name: "Waynesville",
-    //     imageUrls: [''],
-    //     itinerary: [{location:"North Carolina"}],
-    //     tags: [''],
-    //     description: "",
-    //     estimatedPrice: "$1000"
-    // },
+    {
+        id: 2,
+        name: "Dunedin Beach",
+        imageUrls: [''],
+        itinerary: [{location:"Dunedin"}],
+        tags: [''],
+        description: "",
+        estimatedPrice: "$900"
+    },
+    {
+        id: 3,
+        name: "Tarpon Springs",
+        imageUrls: [''],
+        itinerary: [{location:"Tarpon Springs"}],
+        tags: [''],
+        description: "",
+        estimatedPrice: "$8000"
+    },
+    {
+        id: 4,
+        name: "Waynesville",
+        imageUrls: [''],
+        itinerary: [{location:"North Carolina"}],
+        tags: [''],
+        description: "",
+        estimatedPrice: "$1000"
+    },
 ]
 
 // Location details and photos on Home page
