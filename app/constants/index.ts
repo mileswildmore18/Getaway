@@ -61,7 +61,7 @@ export const locations = [{
         id: 3,
         name: "Tarpon Springs",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
-        location: "Tarpon Springs",
+        location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
