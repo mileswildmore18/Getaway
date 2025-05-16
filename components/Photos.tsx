@@ -14,7 +14,7 @@ const Photos = () => {
             {addresses.map((address) => (
                 <div key={address.id} className="space-y-3 border-b pb-6">
                     <img
-                        src={`/assets/images/${address.imageUrls[0] || "placeholder.jpg"}`}
+                        src={`/assets/images/${address.imageUrls[0] || "file.jpg"}`}
                         alt={address.name}
                         className="w-full h-auto rounded shadow"
                     />
