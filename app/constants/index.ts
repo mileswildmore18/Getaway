@@ -3,7 +3,7 @@ export const addresses = [
     {
         id: 1,
         name: "Clearwater Beach",
-        imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-home.jpg', 'Clearwater-home2.jpg', 'Clearwater-home3.jpg', 'Clearwater-home4.jpg', 'Clearwater-home5.jpg' ,'Clearwater-home6.jpg', 'Clearwater-home7.jpg', 'Clearwater-home8.jpg'],
+        imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-home.jpg', 'Clearwater-home2.jpg', 'Clearwater-home3.jpg', 'Clearwater-home5.jpg' ,'Clearwater-home6.jpg', 'Clearwater-home7.jpg', 'Clearwater-home8.jpg', 'Clearwater-home4.jpg'],
         itinerary: [{location:"Clearwater"}],
         tags: [''],
         address: "9 Cambria St. Clearwater, FL 33767",
