@@ -14,7 +14,9 @@ const Rent = ({ id, name, imageUrl, location, tags }: HouseAddress) => {
             to={`/dreamhouse/`}
             className="rent"
         >
-            <img src={imageUrl} alt={name} />
+            <img
+                src={imageUrl}
+                alt={name} />
             <article>
                 <h2 className="flex justify-center">{name}</h2>
                 <h3 className="flex justify-center">{location}</h3>
