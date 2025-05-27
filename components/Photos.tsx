@@ -12,7 +12,7 @@ const Photos = () => {
     return (
         <div className="p-4 space-y-8">
             {addresses.map((address) => (
-                <div key={address.id} className="space-y-3 border-b pb-6">
+                <div id={`house-${address.id}`} key={address.id} className="space-y-3 border-b pb-6">
                     <img
                         src={`/assets/images/${address.imageUrls[0] || "file.jpg"}`}
                         alt={address.name}
