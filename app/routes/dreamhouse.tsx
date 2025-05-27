@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Photos from "../../components/Photos";
 import DreamHouseId from "./id/DreamHouseId";
+import NavBar from "../../components/NavBar";
 
 const Dreamhouse = () => {
     return (
@@ -14,17 +15,11 @@ const Dreamhouse = () => {
                 description={"Rent your dream home"}
             />
             {/*End of Header*/}
-            <nav className="flex justify-center gap-6 bg-yellow-200 py-4 shadow">
-                {addresses.map((address) => (
-                    <a
-                    key={address.id}
-                    href={`#house-${address.id}`}
-                    className="text-blue-500 hover:underline font-medium"
-                    >
-                        {address.name}
-                    </a>
-                ))}
-            </nav>
+
+            {/* Navigation Bar for houses*/}
+            <NavBar />
+            {/*End of Navigation Bar*/}
+
             {/* Rent */}
             <section className="container">
                 <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center">More photos</h1>
