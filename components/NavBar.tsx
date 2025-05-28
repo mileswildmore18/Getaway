@@ -1,8 +1,9 @@
 import {addresses} from "~/constants";
 
+// Navigation Bar
 const NavBar = () => {
     return (
-        <div className="w-full flex justify-center gap-7 bg-yellow-200 py-4 shadow text-2xl">
+        <div className="w-full flex flex-wrap justify-center gap-3 bg-yellow-200 py-4 shadow text-lg">
         {addresses.map((address, index) => (
             <div
                 key={address.id}
