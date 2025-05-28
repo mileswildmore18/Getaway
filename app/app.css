@@ -2,78 +2,153 @@
 
 /*custom color themes of the website*/
 @theme {
-   --color-amber-50: #fbd387;
+    --color-amber-50: #fbd387;
     --color-blue-50: #d8f9fb;
     --color-blue-100: #c2f6fb;
     --color-blue-200: #9df0f8;
     --color-blue-300: #6be3f1;
+    --color-blue-400: #5fcad8;
+    --color-blue-500: #4fb1bf;
     --color-green-100: #d0ffba;
     --color-green-200: #9afd85;
     --color-yellow-200: #f8d44d;
- --color-dark-100: #1b1a1a;
+    --color-dark-100: #1b1a1a;
 
 }
 
 @layer components {
 
-/* Properties for the header*/
-.header {
- @apply font-bold flex justify-center w-full bg-green-900 text-yellow-400 p-6 mb-2;
-  article {
-    @apply flex flex-col justify-center text-2xl w-full;
- }
-}
-/* Properties for the home page section*/
-.home {
-  @apply flex flex-col gap-6 w-full pb-15 items-center;
- .container {
-  @apply flex flex-col gap-6 mt-3;
- }
-}
-/* Properties for the rent component*/
-.rent {
- @apply flex flex-col p-6 relative;
- img {
-  @apply w-full h-[200px] object-cover;
- }
- article {
-  @apply flex flex-col gap-3 mt-3;
-  h2 {
-   @apply text-xl font-bold text-gray-600;
-  }
- }
-}
+    /* Properties for the header*/
+    .header {
+        @apply font-bold flex justify-center w-full bg-green-900 text-yellow-400 p-6 mb-2;
 
-/*Properties for the utilities*/
-@layer utilities {
- .flex-center {
-  @apply flex justify-center items-center;
- }
- .flex-between {
-  @apply flex justify-between items-center;
- }
- .rent-card {
-  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5;
- }
- .rent-card-item {
-  @apply flex flex-col items-center gap-3 p-6 relative;
-  img {
-   @apply w-full max-h-[500px] object-cover;
-  }
+        article {
+            @apply flex flex-col justify-center text-2xl w-full;
+        }
 
- }
-}
+    }
+    .wave-container {
+        position: relative;
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+        background: transparent;
+    }
 
- /*Properties for the footer*/
- .footer {
-  @apply flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t text-gray-600 text-center py-6 bg-amber-100;
- }
+    .wave {
+        position: absolute;
+        width: 150%;
+        height: 110%;
+        bottom: 0;
+        left: 0;
+        background-repeat: repeat-x;
+        background-size: 80% 200px;
+        animation: wave-move 8s linear infinite;
+        opacity: 0.8;
+    }
 
-/*Properties for the html and body of the website*/
-html,
-body {
-  font-family: sans-serif, Arial;
- scroll-behavior: smooth;
- background-color: var(--color-blue-50);
- }
+    .wave1 {
+        background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%236be3f1' fill-opacity='1' d='M0,160L30,144C60,128,120,96,180,112C240,128,300,192,360,197.3C420,203,480,149,540,128C600,107,660,117,720,128C780,139,840,149,900,138.7C960,128,1020,96,1080,96C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z' /%3E%3C/svg%3E");
+        z-index: 3;
+        animation-duration: 15s;
+    }
+
+    .wave2 {
+        background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%234fb1bf' fill-opacity='1' d='M0,160L30,144C60,128,120,96,180,112C240,128,300,192,360,197.3C420,203,480,149,540,128C600,107,660,117,720,128C780,139,840,149,900,138.7C960,128,1020,96,1080,96C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z' /%3E%3C/svg%3E");
+        z-index: 3;
+        animation-duration: 22s;
+    }
+
+    .wave3 {
+        background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%234fb1bf' fill-opacity='1' d='M0,160L30,144C60,128,120,96,180,112C240,128,300,192,360,197.3C420,203,480,149,540,128C600,107,660,117,720,128C780,139,840,149,900,138.7C960,128,1020,96,1080,96C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z' /%3E%3C/svg%3E");
+        z-index: 3;
+        animation-duration: 29s;
+    }
+    .wave4 {
+        background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%235fcad8' fill-opacity='1' d='M0,160L30,144C60,128,120,96,180,112C240,128,300,192,360,197.3C420,203,480,149,540,128C600,107,660,117,720,128C780,139,840,149,900,138.7C960,128,1020,96,1080,96C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z' /%3E%3C/svg%3E");
+        z-index: 3;
+        animation-duration: 35s;
+    }
+
+    @keyframes wave-move {
+        0% {
+            transform: translateX(70%);
+        }
+
+        25% {
+            transform: translateX(30%);
+        }
+        50% {
+            transform: translateX(0%);
+        }
+        75% {
+            transform: translateX(-25%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+
+    }
+    /* Properties for the home page section*/
+    .home {
+        @apply flex flex-col gap-6 w-full pb-15 items-center;
+
+        .container {
+            @apply flex flex-col gap-6 mt-3;
+        }
+    }
+
+    /* Properties for the rent component*/
+    .rent {
+        @apply flex flex-col p-6 relative;
+
+        img {
+            @apply w-full h-[200px] object-cover;
+        }
+
+        article {
+            @apply flex flex-col gap-3 mt-3;
+
+            h2 {
+                @apply text-xl font-bold text-gray-600;
+            }
+        }
+    }
+
+    /*Properties for the utilities*/
+    @layer utilities {
+        .flex-center {
+            @apply flex justify-center items-center;
+        }
+
+        .flex-between {
+            @apply flex justify-between items-center;
+        }
+
+        .rent-card {
+            @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5;
+        }
+
+        .rent-card-item {
+            @apply flex flex-col items-center gap-3 p-6 relative;
+
+            img {
+                @apply w-full max-h-[500px] object-cover;
+            }
+
+        }
+    }
+
+    /*Properties for the footer*/
+    .footer {
+        @apply flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t text-gray-600 text-center py-6 bg-amber-100;
+    }
+
+    /*Properties for the html and body of the website*/
+    html,
+    body {
+        font-family: sans-serif, Arial;
+        scroll-behavior: smooth;
+        background-color: var(--color-blue-50);
+    }
 }

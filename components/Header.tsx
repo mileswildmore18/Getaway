@@ -6,7 +6,7 @@ interface Props {
 }
 
 // Header
-const Header = ({title, description} : Props) => {
+const Header = ({title, description}: Props) => {
     return (
         <header className="header">
 
@@ -14,11 +14,19 @@ const Header = ({title, description} : Props) => {
             <article>
                 <h1 className={cn("text-7xl font-bold font-mono flex justify-center items-center text-center")}>{title}</h1>
                 <p className={cn("text-2xl font-bold font-mono flex justify-center bg-green-900 text-yellow-400 p-6 text-center")}>{description}</p>
+
+                {/* Wave Animation */}
+                <div className="wave-container">
+                    <div className="wave wave1"></div>
+                    <div className="wave wave2"></div>
+                    <div className="wave wave3"></div>
+                    <div className="wave wave4"></div>
+                </div>
+                {/* End Wave Animation */}
             </article>
             {/*End of Title and Description*/}
-
         </header>
-    )
+)
 }
 // End of Header
 export default Header
