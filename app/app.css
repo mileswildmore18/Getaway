@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 @import "tailwindcss";
 
 /*custom color themes of the website*/
@@ -13,7 +14,7 @@
     --color-green-200: #9afd85;
     --color-yellow-200: #f8d44d;
     --color-dark-100: #1b1a1a;
-
+    --font-lugrasimo: 'Lugrasimo', cursive;
 }
 
 @layer components {
