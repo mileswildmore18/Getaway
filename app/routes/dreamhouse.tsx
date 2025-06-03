@@ -12,7 +12,7 @@ const Dreamhouse = () => {
             {/* Header*/}
             <Header
                 title={"Gulf GetAway"}
-                description={"Rent your dream home"}
+                description={"Please call for current rates"}
             />
             {/*End of Header*/}
 
