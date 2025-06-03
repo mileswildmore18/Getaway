@@ -16,7 +16,7 @@ const Home = () => {
 
             {/* Rent */}
             <section className="container">
-                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center text-center">Chose your dream house</h1>
+                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center text-center">Choose your dream house</h1>
                     {/* Add pictures of Houses and locations*/}
                 <div className="rent-card">
                     {locations.map(({id, name, imageUrl, location, tags}) => (
