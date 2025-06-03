@@ -52,7 +52,7 @@ export const addresses = [
     {
         id: 6,
         name: "Dunedin - Louden Avenue",
-        imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Entrance.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg' ],
+        imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg', 'Dunedin-Louden-Ave-Entrance.jpg'],
         itinerary: [{location: "Dunedin"}],
         tags: [' Courtyard view |', ' Wifi |', ' Kitchen |', ' Free parking on premises |', ' Washer |', ' Central air conditioning |', ' Beach access - Beachfront |', ' TV |', ' Dryer'],
         address: "813 Louden Ave. Dunedin, FL 34698",
