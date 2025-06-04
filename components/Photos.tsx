@@ -26,7 +26,6 @@ const Photos = () => {
                     <p className="text-green-600 font-semibold">{address.estimatedPrice || "Please call for current rates"}</p>
                     <h3 className="text-xl font-semibold">What this place offers:</h3>
                     <p className="text-gray-700 font-medium">{address.tags}</p>
-                    <h3 className="text-2xl font-bold text-blue-600">Contact Us: 727-288-8354</h3>
 
                     {/* Toggle button */}
                     {address.imageUrls.length > 1 && (
