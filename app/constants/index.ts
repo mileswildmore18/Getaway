@@ -22,6 +22,24 @@ export const addresses = [
     },
     {
         id: 3,
+        name: "Dunedin - Park Street A",
+        imageUrls: ['Dunedin-Rental-Park-St.jpg', 'Dunedin-Rental-Park-St-Living-Room.jpg', 'Dunedin-Rental-Park-St-Bedroom.jpg', 'Dunedin-Rental-Park-St-Bedroom-view2.jpg', 'Dunedin-Rental-Park-St-Bathroom.jpg', 'Dunedin-Rental-Park-St-Kitchen.jpg', 'Dunedin-Rental-Park-St-Kitchen-view2.jpg'],
+        itinerary: [{location: "Dunedin"}],
+        tags: [' Courtyard view |', ' Wifi |', ' Free parking on premises |', ' Free washer |', ' AC |', ' Kitchen |', ' Dedicated workspace |', ' TV |', ' Free dryer |'],
+        address: "541 Park St. Dunedin, FL 34698",
+        description: "2 guests . 1 bedroom . 1 beds . 1 bath"
+    },
+    {
+        id: 4,
+        name: "Dunedin - Louden Avenue",
+        imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg', 'Dunedin-Louden-Ave-Entrance.jpg'],
+        itinerary: [{location: "Dunedin"}],
+        tags: [' Courtyard view |', ' Wifi |', ' Kitchen |', ' Free parking on premises |', ' Washer |', ' Central air conditioning |', ' Beach access - Beachfront |', ' TV |', ' Dryer'],
+        address: "813 Louden Ave. Dunedin, FL 34698",
+        description: "6 guests . 2 bedrooms . 3 beds . 2 baths"
+    },
+    {
+        id: 5,
         name: "Tarpon Springs",
         imageUrls: ['Tarpon-Springs.jpg', 'Tarpon-Springs-LivingRoom.jpg', 'Tarpon-Springs-DiningRoom.jpg', 'Tarpon-Springs-Kitchen.jpg', 'Tarpon-Springs-Gameroom.jpg', 'Tarpon-Springs-UtilityRoom.jpg', 'Tarpon-Springs-Bedroom1.jpg', 'Tarpon-Springs-Bedroom2.jpg', 'Tarpon-Springs-Bedroom3.jpg', 'Tarpon-Springs-Bathroom1.jpg', 'Tarpon-Springs-Bathroom2.jpg', 'Tarpon-Springs-Outdoor1.jpg', 'Tarpon-Springs-Outdoor2.jpg'],
         itinerary: [{location: "Tarpon Springs"}],
@@ -31,7 +49,7 @@ export const addresses = [
         estimatedPrice: ""
     },
     {
-        id: 4,
+        id: 6,
         name: "Waynesville",
         imageUrls: ['Waynesville.jpg', 'Waynesville-Backyard.jpg', 'Waynesville-Living-Room.jpg', 'Waynesville-Kitchen.jpg', 'Waynesville-Dining.jpg', 'Waynesville-Bedroom1.jpg', 'Waynesville-Bedroom2.jpg', 'Waynesville-Bedroom3.jpg', 'Waynesville-Bedroom4.jpg', 'Waynesville-Bathroom1.jpg', 'Waynesville-Bathroom2.jpg', 'Waynesville-Bathroom3.jpg', 'Waynesville-Gameroom.jpg', 'Waynesville-Exterior.jpg', 'Waynesville-Hottub.jpg'],
         itinerary: [{location: "North Carolina"}],
@@ -39,25 +57,9 @@ export const addresses = [
         address: "222 Brushy Creek Ln. Waynesville, NC 28785",
         description: "8 guests . 4 bedrooms . 5 beds . 3 baths",
         estimatedPrice: ""
-    },
-    {
-        id: 5,
-        name: "Dunedin - Park Street",
-        imageUrls: ['Dunedin-Rental-Park-St.jpg', 'Dunedin-Rental-Park-St-Living-Room.jpg', 'Dunedin-Rental-Park-St-Bedroom.jpg', 'Dunedin-Rental-Park-St-Bedroom-view2.jpg', 'Dunedin-Rental-Park-St-Bathroom.jpg', 'Dunedin-Rental-Park-St-Kitchen.jpg', 'Dunedin-Rental-Park-St-Kitchen-view2.jpg'],
-        itinerary: [{location: "Dunedin"}],
-        tags: [' Courtyard view |', ' Wifi |', ' Free parking on premises |', ' Free washer |', ' AC |', ' Kitchen |', ' Dedicated workspace |', ' TV |', ' Free dryer |'],
-        address: "541 Park St. Dunedin, FL 34698",
-        description: "2 guests . 1 bedroom . 1 beds . 1 bath"
-    },
-    {
-        id: 6,
-        name: "Dunedin - Louden Avenue",
-        imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg', 'Dunedin-Louden-Ave-Entrance.jpg'],
-        itinerary: [{location: "Dunedin"}],
-        tags: [' Courtyard view |', ' Wifi |', ' Kitchen |', ' Free parking on premises |', ' Washer |', ' Central air conditioning |', ' Beach access - Beachfront |', ' TV |', ' Dryer'],
-        address: "813 Louden Ave. Dunedin, FL 34698",
-        description: "6 guests . 2 bedrooms . 3 beds . 2 baths"
     }
+
+
 ]
 
 // Location details and photos on Home page
@@ -70,38 +72,40 @@ export const locations = [{
 },
     {
         id: 2,
-        name: "Dunedin Beach",
+        name: "Dunedin",
         imageUrl: ['/assets/images/Dunedin.jpg'],
         location: "Dunedin, FL",
         tags: ['12 guests . 5 bedrooms . 8 beds . 5.5 baths']
     },
     {
         id: 3,
+        name: "Dunedin Rental - Park Street A",
+        imageUrl: ['/assets/images/Dunedin-Rental-Park-St.jpg'],
+        location: "Dunedin, FL",
+        tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
+    },
+    {
+        id: 4,
+        name: "Dunedin Rental - Louden Avenue",
+        imageUrl: ['/assets/images/Dunedin-Louden-Ave.jpg'],
+        location: "Dunedin, FL",
+        tags: ['6 guests . 2 bedrooms . 3 beds . 2 baths']
+    },
+    {
+        id: 5,
         name: "Tarpon Springs",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
         location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
-        id: 4,
+        id: 6,
         name: "Waynesville",
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",
         tags: ['8 guests . 4 bedrooms . 5 beds . 3 baths']
     },
-    {
-        id: 5,
-        name: "Dunedin Rental - Park Street",
-        imageUrl: ['/assets/images/Dunedin-Rental-Park-St.jpg'],
-        location: "Dunedin, FL",
-        tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
-    },
-    {
-        id: 6,
-        name: "Dunedin Rental - Louden Avenue",
-        imageUrl: ['/assets/images/Dunedin-Louden-Ave.jpg'],
-        location: "Dunedin, FL",
-        tags: ['6 guests . 2 bedrooms . 3 beds . 2 baths']
-    }
+
+
 ]
 
