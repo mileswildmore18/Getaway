@@ -11,7 +11,7 @@ const Home = () => {
             {/* Header*/}
             <Header
                 title={"Gulf GetAway"}
-                description={"Please call Tel# 727-288-8354 for current rates"}
+                description={"Please call Kristen Joy at 727-288-8354 for more details"}
             />
             {/*End of Header*/}
 
