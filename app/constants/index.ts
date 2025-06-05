@@ -12,7 +12,7 @@ export const addresses = [
     },
     {
         id: 2,
-        name: "Dunedin - Virginia Street",
+        name: "Virginia Street",
         imageUrls: ['Dunedin.jpg', 'Dunedin-LivingRoom.jpg', 'Dunedin-LivingRoom2.jpg', 'Dunedin-Kitchen.jpg', 'Dunedin-DiningRoom.jpg', 'Dunedin-Bedroom1.jpg', 'Dunedin-Bedroom2.jpg', 'Dunedin-Bedroom3.jpg', 'Dunedin-Bedroom4.jpg', 'Dunedin-Bedroom5.jpg', 'Dunedin-Bathroom1.jpg', 'Dunedin-Bathroom2.jpg', 'Dunedin-Bathroom3.jpg', 'Dunedin-Bathroom4.jpg', 'Dunedin-Bathroom5.jpg', 'Dunedin-Bathroom6.jpg', 'Dunedin-Laundryroom.jpg', 'Dunedin-Backyard.jpg'],
         itinerary: [{location: "Dunedin"}],
         tags: ['Lake access |', ' Wifi |', ' Washer |', ' TV |', ' Kitchen |', ' Dedicated Workspace |', ' Free Parking |', ' Air conditioning |', ' Free Dryer |'],
@@ -31,7 +31,7 @@ export const addresses = [
     },
     {
         id: 4,
-        name: "Dunedin - Park Street Studio B",
+        name: "Park Street Studio B",
         imageUrls: ['Dunedin-Rental-Park-St-B.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom-view2.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom-view3.jpg', 'Dunedin-Rental-Park-St-B-Kitchen.jpg', 'Dunedin-Rental-Park-St-B-DiningRoom.jpg', 'Dunedin-Rental-Park-St-B-Bedroom.jpg', 'Dunedin-Rental-Park-St-B-Bathroom.jpg', 'Dunedin-Rental-Park-St-B-Bathroom-view2.jpg'],
         itinerary: [{location: "Dunedin"}],
         tags: [' Courtyard view |', ' Wifi |', ' Free parking on premises |', ' Central Air conditioning |', ' Hair dryer |', ' Kitchen |', ' Dedicated workspace |', ' 55 inch HDTV with streaming services |', ' Private patio or balcony |'],
