@@ -23,7 +23,7 @@ const Photos = () => {
                     <h2 className="text-3xl font-bold">{address.name}</h2>
                     <p className="text-gray-600">{address.description || "No description available"}</p>
                     <p className="text-gray-500">{address.address || "No address listed"}</p>
-                    <p className="text-green-600 font-semibold">{address.estimatedPrice || "Please call for current rates"}</p>
+                    <p className="text-green-600 font-semibold">{address.estimatedPrice || "Please call for more details"}</p>
                     <h3 className="text-xl font-semibold">What this place offers:</h3>
                     <p className="text-gray-700 font-medium">{address.tags}</p>
 

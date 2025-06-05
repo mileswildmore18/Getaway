@@ -18,22 +18,29 @@ const NavBar = () => {
     const groupedAddresses = groupByCity(addresses);
 
     return (
-        <div className="w-full flex flex-wrap justify-center gap-3 bg-yellow-200 py-4 shadow text-xl">
+        <div className="w-full flex flex-wrap justify-center gap-4 bg-yellow-200 py-4 shadow text-xl">
             {Object.entries(groupedAddresses).map(([city, cityAddresses]) => (
-                <details key={city} className="bg-green-100 rounded shadow-md px-4 py-2 cursor-pointer group">
-                    <summary className="text-blue-500 font-semibold hover-text-green-500 cursor-pointer">
+                <details
+                    key={city}
+                    className="bg-green-100 rounded shadow-md px-4 py-2 cursor-pointer group"
+                >
+                    <summary className="text-blue-600 font-semibold hover-text-green-600 cursor-pointer">
                         {city}
                     </summary>
-                    <div className="flex flex-col mt-2 pl-2 space-y-1">
-                        {cityAddresses.map((address) => (
-                            <a
-                                key={address.id}
-                                href={`#house-${address.id}`}
-                                className="text-blue-500 hover:text-green-500 font-medium"
-                            >
-                                {address.name}
-                            </a>
-                        ))}
+                    <div
+                        className="mt-2 overflow-hidden transition-all duration-300 ease-in-out group-open:max-h-[500px] group-open:opacity-100 max-h-0 opacity-0">
+                        <ul className="flex flex-col mt-2 text-base space-y-1">
+                            {cityAddresses.map((address) => (
+                                <li key={address.id}>
+                                <a
+                                    href={`#house-${address.id}`}
+                                    className=" block px-2 py-1 rounded hover:bg-green-200 text-blue-500 hover:text-green-500 font-bold"
+                                >
+                                    {address.name}
+                                </a>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </details>
             ))}
