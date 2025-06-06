@@ -1,6 +1,6 @@
 import {addresses} from "~/constants";
 
-//Grouping addressses by city name from the 'itenerary' field
+//Grouping addressses by city name from the 'itinerary' field
 const groupByCity = (addresses: typeof addresses) => {
     const cityMap: Record<string, typeof addresses> = {};
 
