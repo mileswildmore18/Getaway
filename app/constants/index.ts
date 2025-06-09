@@ -52,6 +52,16 @@ export const addresses = [
     },
     {
         id: 6,
+        name: "Clearwater Beach Condo 6",
+        imageUrls: ['Clearwater-Beach-Condo6.jpg','Clearwater-Beach-Condo6-LivingRoom.jpg', 'Clearwater-Beach-Condo6-LivingRoom-view2.jpg','Clearwater-Beach-Condo6-Kitchen.jpg', 'Clearwater-Beach-Condo6-Kitchen-view2.jpg', 'Clearwater-Beach-Condo6-DiningRoom.jpg', 'Clearwater-Beach-Condo6-Bedroom.jpg','Clearwater-Beach-Condo6-Bedroom-view2.jpg', 'Clearwater-Beach-Condo6-Bedroom2.jpg', 'Clearwater-Beach-Condo6-Bedroom2-view2.jpg', 'Clearwater-Beach-Condo6-Bathroom.jpg', 'Clearwater-Beach-Condo6-Bathroom2.jpg', 'Clearwater-Beach-Condo6-Balcony.jpg', 'Clearwater-Beach-Condo6-Entrance.jpg'],
+        itinerary: [{location: "Clearwater"}],
+        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
+        address: "9 Cambria St. Clearwater, FL 33767",
+        description: "6 guests . 2 bedrooms . 4 beds . 2 baths",
+        estimatedPrice: ""
+    },
+    {
+        id: 6,
         name: "Virginia Street",
         imageUrls: ['Dunedin.jpg', 'Dunedin-LivingRoom.jpg', 'Dunedin-LivingRoom2.jpg', 'Dunedin-Kitchen.jpg', 'Dunedin-DiningRoom.jpg', 'Dunedin-Bedroom1.jpg', 'Dunedin-Bedroom2.jpg', 'Dunedin-Bedroom3.jpg', 'Dunedin-Bedroom4.jpg', 'Dunedin-Bedroom5.jpg', 'Dunedin-Bathroom1.jpg', 'Dunedin-Bathroom2.jpg', 'Dunedin-Bathroom3.jpg', 'Dunedin-Bathroom4.jpg', 'Dunedin-Bathroom5.jpg', 'Dunedin-Bathroom6.jpg', 'Dunedin-Laundryroom.jpg', 'Dunedin-Backyard.jpg'],
         itinerary: [{location: "Dunedin"}],
