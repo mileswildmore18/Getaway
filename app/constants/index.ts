@@ -33,7 +33,7 @@ export const addresses = [
     {
         id: 4,
         name: "Clearwater Beach Condo 4",
-        imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-Beach-Condo4-LivingRoom.jpg', 'Clearwater-Beach-Condo4-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-DiningRoom.jpg', 'Clearwater-Beach-Condo4-Kitchen.jpg', 'Clearwater-Beach-Condo4-Kitchen-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom2.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-Hallway.jpg', 'Clearwater-Beach-Condo4-Bathroom.jpg', 'Clearwater-Beach-Condo4-Bathroom2.jpg', 'Clearwater-Beach-Condo4-Balcony.jpg', 'Clearwater-Beach-Condo4-Balcony-view2.jpg'],
+        imageUrls: ['Clearwater-Beach-Condo4.jpg', 'Clearwater-Beach-Condo4-LivingRoom.jpg', 'Clearwater-Beach-Condo4-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-DiningRoom.jpg', 'Clearwater-Beach-Condo4-Kitchen.jpg', 'Clearwater-Beach-Condo4-Kitchen-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom2.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-Hallway.jpg', 'Clearwater-Beach-Condo4-Bathroom.jpg', 'Clearwater-Beach-Condo4-Bathroom2.jpg', 'Clearwater-Beach-Condo4-Balcony.jpg', 'Clearwater-Beach-Condo4-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Free Dryer |', ' TV with standard cable |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
         address: "9 Cambria St. Clearwater, FL 33767",
@@ -134,59 +134,73 @@ export const locations = [{
         name: "Clearwater Condo 2",
         imageUrl: ['/assets/images/Clearwater-Beach-Condo2.jpg'],
         location: "Clearwater, FL",
-        tags: ['5 guests . 2 bedrooms . 4 beds . 2 baths']
+        tags: ['7 guests . 2 bedrooms . 5 beds . 2 baths']
     },
     {
         id: 3,
         name: "Clearwater Condo 3",
         imageUrl: ['/assets/images/Clearwater-Beach-Condo3.jpg'],
         location: "Clearwater, FL",
-        tags: ['6 guests . 2 bedrooms . 3 beds . 2 baths']
+        tags: ['6 guests . 2 bedrooms . 4 beds . 2 baths']
     },
     {
         id: 4,
         name: "Clearwater Condo 4",
-        imageUrl: ['/assets/images/Clearwater-Beach.jpg'],
+        imageUrl: ['/assets/images/Clearwater-Beach-Condo4.jpg'],
+        location: "Clearwater, FL",
+        tags: ['6 guests . 2 bedrooms . 4 beds . 2 baths']
+    },
+    {
+        id: 5,
+        name: "Clearwater Condo 5",
+        imageUrl: ['/assets/images/Clearwater-Beach-Condo5.jpg'],
         location: "Clearwater, FL",
         tags: ['7 guests . 2 bedrooms . 5 beds . 2 baths']
     },
     {
-        id: 5,
+        id: 6,
+        name: "Clearwater Condo 6",
+        imageUrl: ['/assets/images/Clearwater-Beach-Condo6.jpg'],
+        location: "Clearwater, FL",
+        tags: ['6 guests . 2 bedrooms . 4 beds . 2 baths']
+    },
+    {
+        id: 7,
         name: "Dunedin",
         imageUrl: ['/assets/images/Dunedin.jpg'],
         location: "Dunedin, FL",
         tags: ['12 guests . 5 bedrooms . 8 beds . 5.5 baths']
     },
     {
-        id: 6,
+        id: 8,
         name: "Dunedin Rental - Park Street A",
         imageUrl: ['/assets/images/Dunedin-Rental-Park-St.jpg'],
         location: "Dunedin, FL",
         tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
     },
     {
-        id: 7,
+        id: 9,
         name: "Dunedin Rental - Park Street B",
         imageUrl: ['/assets/images/Dunedin-Rental-Park-St-B.jpg'],
         location: "Dunedin, FL",
         tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
     },
     {
-        id: 8,
+        id: 10,
         name: "Dunedin Rental - Louden Avenue",
         imageUrl: ['/assets/images/Dunedin-Louden-Ave.jpg'],
         location: "Dunedin, FL",
         tags: ['6 guests . 2 bedrooms . 3 beds . 2 baths']
     },
     {
-        id: 9,
+        id: 11,
         name: "Tarpon Springs",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
         location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
-        id: 10,
+        id: 12,
         name: "Waynesville",
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",
