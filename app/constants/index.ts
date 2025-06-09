@@ -139,7 +139,7 @@ export const locations = [{
 },
     {
         id: 2,
-        name: "Clearwater Beach Condo",
+        name: "Clearwater Beach Bungalow",
         imageUrl: ['/assets/images/Clearwater-Beach-BungalowA.jpg'],
         location: "Clearwater, FL",
         tags: ['3 Bungalow Studios']
