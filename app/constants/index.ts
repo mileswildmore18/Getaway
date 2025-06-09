@@ -117,8 +117,6 @@ export const addresses = [
         description: "8 guests . 4 bedrooms . 5 beds . 3 baths",
         estimatedPrice: ""
     }
-
-
 ]
 
 // Location details and photos on Home page
@@ -206,7 +204,5 @@ export const locations = [{
         location: "Waynesville, North Carolina",
         tags: ['8 guests . 4 bedrooms . 5 beds . 3 baths']
     },
-
-
 ]
 
