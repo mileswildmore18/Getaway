@@ -13,7 +13,7 @@ export const addresses = [
     {
         id: 2,
         name: "Clearwater Beach Condo 2",
-        imageUrls: ['Clearwater-Beach-Condo3.jpg', 'Clearwater-Beach-Condo3-LivingRoom.jpg', 'Clearwater-Beach-Condo3-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo3-Bedroom.jpg', 'Clearwater-Beach-Condo3-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3-DiningRoom.jpg', 'Clearwater-Beach-Condo3-Kitchen.jpg', 'Clearwater-Beach-Condo3-Kitchen-view2.jpg', 'Clearwater-Beach-Condo3-Bedroom2.jpg', 'Clearwater-Beach-Condo3-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3-Hallway.jpg', 'Clearwater-Beach-Condo3-Bathroom.jpg', 'Clearwater-Beach-Condo3-Bathroom2.jpg', 'Clearwater-Beach-Condo3-Balcony.jpg', 'Clearwater-Beach-Condo3-Balcony-view2.jpg'],
+        imageUrls: ['Clearwater-Beach-Condo2.jpg', 'Clearwater-Beach-Condo2-LivingRoom.jpg', 'Clearwater-Beach-Condo2-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo2-Bedroom.jpg', 'Clearwater-Beach-Condo2-Bedroom-view2.jpg', 'Clearwater-Beach-Condo2-DiningRoom.jpg', 'Clearwater-Beach-Condo2-Kitchen.jpg', 'Clearwater-Beach-Condo2-Kitchen-view2.jpg', 'Clearwater-Beach-Condo2-Bedroom2.jpg', 'Clearwater-Beach-Condo2-Bedroom-view2.jpg', 'Clearwater-Beach-Condo2-Hallway.jpg', 'Clearwater-Beach-Condo2-Bathroom.jpg', 'Clearwater-Beach-Condo2-Bathroom2.jpg', 'Clearwater-Beach-Condo2-Balcony.jpg', 'Clearwater-Beach-Condo2-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Free Dryer |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
         address: "9 Cambria St. Clearwater, FL 33767",
@@ -22,12 +22,12 @@ export const addresses = [
     },
     {
         id: 3,
-        name: "Clearwater Beach Condo 5",
-        imageUrls: ['Clearwater-Beach-Condo2.jpg','Clearwater-Beach-Condo2-LivingRoom.jpg', 'Clearwater-Beach-Condo2-LivingRoom-view2.jpg','Clearwater-Beach-Condo2-Kitchen.jpg', 'Clearwater-Beach-Condo2-Kitchen-view2.jpg', 'Clearwater-Beach-Condo2-DiningRoom.jpg', 'Clearwater-Beach-Condo2-Bedroom.jpg','Clearwater-Beach-Condo2-Bedroom-view2.jpg', 'Clearwater-Beach-Condo2-Bedroom2.jpg', 'Clearwater-Beach-Condo2-Bedroom2-view2.jpg', 'Clearwater-Beach-Condo2-Bathroom.jpg', 'Clearwater-Beach-Condo2-Bathroom2.jpg', 'Clearwater-Beach-Condo2-Balcony.jpg', 'Clearwater-Beach-Condo2-Entrance.jpg'],
+        name: "Clearwater Beach Condo 3",
+        imageUrls: ['Clearwater-Beach-Condo3.jpg', 'Clearwater-Beach-Condo3-LivingRoom.jpg', 'Clearwater-Beach-Condo3-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo3-Bedroom.jpg', 'Clearwater-Beach-Condo3-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3-DiningRoom.jpg', 'Clearwater-Beach-Condo3-Kitchen.jpg', 'Clearwater-Beach-Condo3-Kitchen-view2.jpg', 'Clearwater-Beach-Condo3-Bedroom2.jpg', 'Clearwater-Beach-Condo3-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3-LaundryArea.jpg', 'Clearwater-Beach-Condo3-Bathroom.jpg', 'Clearwater-Beach-Condo4-Bathroom2.jpg', 'Clearwater-Beach-Condo4-Bathroom2-view2.jpg', 'Clearwater-Beach-Condo3-Balcony.jpg'],
         itinerary: [{location: "Clearwater"}],
-        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
+        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Beach view |', ' TV with standard cable |', ' Free washer |', ' Free Dryer |', ' Kitchen |', ' Dedicated workspace '],
         address: "9 Cambria St. Clearwater, FL 33767",
-        description: "7 guests . 2 bedrooms . 5 beds . 2 baths",
+        description: "6 guests . 2 bedrooms . 4 beds . 2 baths",
         estimatedPrice: ""
     },
     {
@@ -35,21 +35,19 @@ export const addresses = [
         name: "Clearwater Beach Condo 4",
         imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-Beach-Condo4-LivingRoom.jpg', 'Clearwater-Beach-Condo4-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-DiningRoom.jpg', 'Clearwater-Beach-Condo4-Kitchen.jpg', 'Clearwater-Beach-Condo4-Kitchen-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom2.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-Hallway.jpg', 'Clearwater-Beach-Condo4-Bathroom.jpg', 'Clearwater-Beach-Condo4-Bathroom2.jpg', 'Clearwater-Beach-Condo4-Balcony.jpg', 'Clearwater-Beach-Condo4-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
-        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
-        address: "9 Cambria St. Clearwater, FL 33767",
-        description: "7 guests . 2 bedrooms . 5 beds . 2 baths",
-        estimatedPrice: ""
-    },
-
-
-    {
-        id: 5,
-        name: "Clearwater Beach Condo 5",
-        imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-Beach-Condo4-LivingRoom.jpg', 'Clearwater-Beach-Condo4-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-DiningRoom.jpg', 'Clearwater-Beach-Condo4-Kitchen.jpg', 'Clearwater-Beach-Condo4-Kitchen-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom2.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-Hallway.jpg', 'Clearwater-Beach-Condo4-Bathroom.jpg', 'Clearwater-Beach-Condo4-Bathroom2.jpg', 'Clearwater-Beach-Condo4-Balcony.jpg', 'Clearwater-Beach-Condo4-Balcony-view2.jpg'],
-        itinerary: [{location: "Clearwater"}],
         tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Free Dryer |', ' TV with standard cable |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
         address: "9 Cambria St. Clearwater, FL 33767",
         description: "6 guests . 2 bedrooms . 4 beds . 2 baths",
+        estimatedPrice: ""
+    },
+    {
+        id: 5,
+        name: "Clearwater Beach Condo 5",
+        imageUrls: ['Clearwater-Beach-Condo5.jpg','Clearwater-Beach-Condo5-LivingRoom.jpg', 'Clearwater-Beach-Condo5-LivingRoom-view2.jpg','Clearwater-Beach-Condo5-Kitchen.jpg', 'Clearwater-Beach-Condo5-Kitchen-view2.jpg', 'Clearwater-Beach-Condo5-DiningRoom.jpg', 'Clearwater-Beach-Condo5-Bedroom.jpg','Clearwater-Beach-Condo5-Bedroom-view2.jpg', 'Clearwater-Beach-Condo5-Bedroom2.jpg', 'Clearwater-Beach-Condo5-Bedroom2-view2.jpg', 'Clearwater-Beach-Condo5-Bathroom.jpg', 'Clearwater-Beach-Condo5-Bathroom2.jpg', 'Clearwater-Beach-Condo5-Balcony.jpg', 'Clearwater-Beach-Condo5-Entrance.jpg'],
+        itinerary: [{location: "Clearwater"}],
+        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
+        address: "9 Cambria St. Clearwater, FL 33767",
+        description: "7 guests . 2 bedrooms . 5 beds . 2 baths",
         estimatedPrice: ""
     },
     {
