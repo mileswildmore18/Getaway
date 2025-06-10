@@ -1,9 +1,6 @@
-import {BrowserRouter, Router, Link, Route, Routes, useParams} from "react-router";
-import {addresses } from "~/constants/";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Photos from "../../components/Photos";
-import DreamHouseId from "./id/DreamHouseId";
 import NavBar from "../../components/NavBar";
 
 const Dreamhouse = () => {

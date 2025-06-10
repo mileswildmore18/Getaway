@@ -2,6 +2,7 @@
 export const addresses = [
     {
         id: 1,
+        type: "Condo",
         name: "Clearwater Beach Condo",
         imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-home.jpg', 'Clearwater-home2.jpg', 'Clearwater-home3.jpg', 'Clearwater-home5.jpg', 'Clearwater-home6.jpg', 'Clearwater-home7.jpg', 'Clearwater-home8.jpg', 'Clearwater-home4.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -12,6 +13,7 @@ export const addresses = [
     },
     {
         id: 2,
+        type: "Condo",
         name: "Clearwater Beach Condo 2",
         imageUrls: ['Clearwater-Beach-Condo2a.jpg', 'Clearwater-Beach-Condo2a-LivingRoom.jpg', 'Clearwater-Beach-Condo2a-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo2a-Bedroom.jpg', 'Clearwater-Beach-Condo2a-Bedroom-view2.jpg', 'Clearwater-Beach-Condo2a-DiningRoom.jpg', 'Clearwater-Beach-Condo2a-Kitchen.jpg', 'Clearwater-Beach-Condo2a-Kitchen-view2.jpg', 'Clearwater-Beach-Condo2a-Bedroom2.jpg', 'Clearwater-Beach-Condo2a-Bedroom-view2.jpg', 'Clearwater-Beach-Condo2a-Hallway.jpg', 'Clearwater-Beach-Condo2a-Bathroom.jpg', 'Clearwater-Beach-Condo2a-Bathroom2.jpg', 'Clearwater-Beach-Condo2a-Balcony.jpg', 'Clearwater-Beach-Condo2a-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -22,6 +24,7 @@ export const addresses = [
     },
     {
         id: 3,
+        type: "Condo",
         name: "Clearwater Beach Condo 3",
         imageUrls: ['Clearwater-Beach-Condo3a.jpg', 'Clearwater-Beach-Condo3a-LivingRoom.jpg', 'Clearwater-Beach-Condo3a-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo3a-Bedroom.jpg', 'Clearwater-Beach-Condo3a-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3a-DiningRoom.jpg', 'Clearwater-Beach-Condo3a-Kitchen.jpg', 'Clearwater-Beach-Condo3a-Kitchen-view2.jpg', 'Clearwater-Beach-Condo3a-Bedroom2.jpg', 'Clearwater-Beach-Condo3a-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3a-LaundryArea.jpg', 'Clearwater-Beach-Condo3a-Bathroom.jpg', 'Clearwater-Beach-Condo3a-Bathroom2.jpg', 'Clearwater-Beach-Condo3a-Bathroom2-view2.jpg', 'Clearwater-Beach-Condo3a-Balcony.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -32,6 +35,7 @@ export const addresses = [
     },
     {
         id: 4,
+        type: "Condo",
         name: "Clearwater Beach Condo 4",
         imageUrls: ['Clearwater-Beach-Condo4.jpg', 'Clearwater-Beach-Condo4-LivingRoom.jpg', 'Clearwater-Beach-Condo4-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom.jpg', 'Clearwater-Beach-Condo4-Bedroom-view2.jpg', 'Clearwater-Beach-Condo4-DiningRoom.jpg', 'Clearwater-Beach-Condo4-Kitchen.jpg', 'Clearwater-Beach-Condo4-Kitchen-view2.jpg', 'Clearwater-Beach-Condo4-Bedroom2.jpg', 'Clearwater-Beach-Condo4-Hallway.jpg', 'Clearwater-Beach-Condo4-Bathroom.jpg', 'Clearwater-Beach-Condo4-Bathroom2.jpg', 'Clearwater-Beach-Condo4-Balcony.jpg', 'Clearwater-Beach-Condo4-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -42,6 +46,7 @@ export const addresses = [
     },
     {
         id: 5,
+        type: "Condo",
         name: "Clearwater Beach Condo 5",
         imageUrls: ['Clearwater-Beach-Condo5.jpg','Clearwater-Beach-Condo5-LivingRoom.jpg', 'Clearwater-Beach-Condo5-LivingRoom-view2.jpg','Clearwater-Beach-Condo5-Kitchen.jpg', 'Clearwater-Beach-Condo5-Kitchen-view2.jpg', 'Clearwater-Beach-Condo5-DiningRoom.jpg', 'Clearwater-Beach-Condo5-Bedroom.jpg','Clearwater-Beach-Condo5-Bedroom-view2.jpg', 'Clearwater-Beach-Condo5-Bedroom2.jpg', 'Clearwater-Beach-Condo5-Bedroom2-view2.jpg', 'Clearwater-Beach-Condo5-Bathroom.jpg', 'Clearwater-Beach-Condo5-Bathroom2.jpg', 'Clearwater-Beach-Condo5-Balcony.jpg', 'Clearwater-Beach-Condo5-Entrance.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -52,6 +57,7 @@ export const addresses = [
     },
     {
         id: 6,
+        type: "Condo",
         name: "Clearwater Beach Condo 6",
         imageUrls: ['Clearwater-Beach-Condo6.jpg','Clearwater-Beach-Condo6-LivingRoom.jpg', 'Clearwater-Beach-Condo6-LivingRoom-view2.jpg','Clearwater-Beach-Condo6-Kitchen.jpg', 'Clearwater-Beach-Condo6-Kitchen-view2.jpg', 'Clearwater-Beach-Condo6-DiningRoom.jpg', 'Clearwater-Beach-Condo6-Bedroom.jpg','Clearwater-Beach-Condo6-Bedroom-view2.jpg', 'Clearwater-Beach-Condo6-Bedroom2.jpg', 'Clearwater-Beach-Condo6-Bedroom2-view2.jpg', 'Clearwater-Beach-Condo6-Bathroom.jpg', 'Clearwater-Beach-Condo6-Bathroom2.jpg', 'Clearwater-Beach-Condo6-Balcony.jpg', 'Clearwater-Beach-Condo6-Entrance.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -62,6 +68,7 @@ export const addresses = [
     },
     {
         id: 7,
+        type: "Bungalow",
         name: "Clearwater Bungalow A",
         imageUrls: ['Clearwater-Beach-BungalowA.jpg','Clearwater-Beach-BungalowA-LivingRoom.jpg', 'Clearwater-Beach-BungalowA-LivingRoom-view2.jpg','Clearwater-Beach-BungalowA-Kitchen.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view3.jpg', 'Clearwater-Beach-BungalowA-DiningRoom.jpg', 'Clearwater-Beach-BungalowA-Bedroom.jpg','Clearwater-Beach-BungalowA-Bedroom-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom3.jpg', 'Clearwater-Beach-BungalowA-Bathroom.jpg', 'Clearwater-Beach-BungalowA-Bathroom2.jpg', 'Clearwater-Beach-BungalowA-Bathroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Patio.jpg', 'Clearwater-Beach-BungalowA-Balcony.jpg', 'Clearwater-Beach-BungalowA-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -72,6 +79,7 @@ export const addresses = [
     },
     {
         id: 8,
+        type: "Bungalow",
         name: "Clearwater Bungalow B",
         imageUrls: ['Clearwater-Beach-BungalowB.jpg','Clearwater-Beach-BungalowB-LivingRoom.jpg', 'Clearwater-Beach-BungalowB-LivingRoom-view2.jpg','Clearwater-Beach-BungalowB-Kitchen.jpg', 'Clearwater-Beach-BungalowB-Bedroom.jpg','Clearwater-Beach-BungalowB-Bedroom-view2.jpg', 'Clearwater-Beach-BungalowB-Bathroom.jpg', 'Clearwater-Beach-BungalowB-Bathroom-view2.jpg', 'Clearwater-Beach-BungalowB-Patio.jpg', 'Clearwater-Beach-BungalowB-Patio-view2.jpg', 'Clearwater-Beach-BungalowB-Balcony.jpg', 'Clearwater-Beach-BungalowB-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -82,6 +90,7 @@ export const addresses = [
     },
     {
         id: 9,
+        type: "Bungalow",
         name: "Clearwater Bungalow C",
         imageUrls: ['Clearwater-Beach-BungalowC.jpg','Clearwater-Beach-BungalowC-LivingRoom.jpg', 'Clearwater-Beach-BungalowC-Kitchen.jpg', 'Clearwater-Beach-BungalowC-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowC-Bedroom.jpg','Clearwater-Beach-BungalowC-Bedroom2.jpg', 'Clearwater-Beach-BungalowC-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowC-Bathroom.jpg', 'Clearwater-Beach-BungalowC-Bathroom-view2.jpg', 'Clearwater-Beach-BungalowC-Patio.jpg', 'Clearwater-Beach-BungalowC-Hallway.jpg'],
         itinerary: [{location: "Clearwater"}],
@@ -92,6 +101,7 @@ export const addresses = [
     },
     {
         id: 10,
+        type: "Other",
         name: "Virginia Street",
         imageUrls: ['Dunedin.jpg', 'Dunedin-LivingRoom.jpg', 'Dunedin-LivingRoom2.jpg', 'Dunedin-Kitchen.jpg', 'Dunedin-DiningRoom.jpg', 'Dunedin-Bedroom1.jpg', 'Dunedin-Bedroom2.jpg', 'Dunedin-Bedroom3.jpg', 'Dunedin-Bedroom4.jpg', 'Dunedin-Bedroom5.jpg', 'Dunedin-Bathroom1.jpg', 'Dunedin-Bathroom2.jpg', 'Dunedin-Bathroom3.jpg', 'Dunedin-Bathroom4.jpg', 'Dunedin-Bathroom5.jpg', 'Dunedin-Bathroom6.jpg', 'Dunedin-Laundryroom.jpg', 'Dunedin-Backyard.jpg'],
         itinerary: [{location: "Dunedin"}],
