@@ -23,7 +23,7 @@ export const addresses = [
     {
         id: 3,
         name: "Clearwater Beach Condo 3",
-        imageUrls: ['Clearwater-Beach-Condo3.jpg', 'Clearwater-Beach-Condo3-LivingRoom.jpg', 'Clearwater-Beach-Condo3-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo3-Bedroom.jpg', 'Clearwater-Beach-Condo3-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3-DiningRoom.jpg', 'Clearwater-Beach-Condo3-Kitchen.jpg', 'Clearwater-Beach-Condo3-Kitchen-view2.jpg', 'Clearwater-Beach-Condo3-Bedroom2.jpg', 'Clearwater-Beach-Condo3-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3-LaundryArea.jpg', 'Clearwater-Beach-Condo3-Bathroom.jpg', 'Clearwater-Beach-Condo3-Bathroom2.jpg', 'Clearwater-Beach-Condo3-Bathroom2-view2.jpg', 'Clearwater-Beach-Condo3-Balcony.jpg'],
+        imageUrls: ['Clearwater-Beach-Condo3a.jpg', 'Clearwater-Beach-Condo3a-LivingRoom.jpg', 'Clearwater-Beach-Condo3a-LivingRoom-view2.jpg', 'Clearwater-Beach-Condo3a-Bedroom.jpg', 'Clearwater-Beach-Condo3a-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3a-DiningRoom.jpg', 'Clearwater-Beach-Condo3a-Kitchen.jpg', 'Clearwater-Beach-Condo3a-Kitchen-view2.jpg', 'Clearwater-Beach-Condo3a-Bedroom2.jpg', 'Clearwater-Beach-Condo3a-Bedroom-view2.jpg', 'Clearwater-Beach-Condo3a-LaundryArea.jpg', 'Clearwater-Beach-Condo3a-Bathroom.jpg', 'Clearwater-Beach-Condo3a-Bathroom2.jpg', 'Clearwater-Beach-Condo3a-Bathroom2-view2.jpg', 'Clearwater-Beach-Condo3a-Balcony.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Beach view |', ' TV with standard cable |', ' Free washer |', ' Free Dryer |', ' Kitchen |', ' Dedicated workspace '],
         address: "9 Cambria St. Clearwater, FL 33767",
