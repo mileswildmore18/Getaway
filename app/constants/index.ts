@@ -3,7 +3,7 @@ export const addresses = [
     {
         id: 1,
         type: "Condo",
-        name: "Clearwater Beach Condo",
+        name: "Clearwater Beach Condo 1",
         imageUrls: ['Clearwater-Beach.jpg', 'Clearwater-home.jpg', 'Clearwater-home2.jpg', 'Clearwater-home3.jpg', 'Clearwater-home5.jpg', 'Clearwater-home6.jpg', 'Clearwater-home7.jpg', 'Clearwater-home8.jpg', 'Clearwater-home4.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
