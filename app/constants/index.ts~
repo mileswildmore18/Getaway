@@ -162,14 +162,14 @@ export const addresses = [
 // Location details and photos on Home page
 export const locations = [{
     id: 1,
-    name: "Clearwater Beach Condos",
+    name: "Clearwater Beach Condo",
     imageUrl: ['/assets/images/Clearwater-Beach.jpg'],
     location: "Clearwater, FL",
     tags: ['6 Condos into 1']
 },
     {
         id: 2,
-        name: "Clearwater Beach Bungalows",
+        name: "Clearwater Beach Bungalow",
         imageUrl: ['/assets/images/Clearwater-Beach-BungalowA.jpg'],
         location: "Clearwater, FL",
         tags: ['3 Bungalow Studios']
