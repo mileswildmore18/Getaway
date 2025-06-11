@@ -73,7 +73,7 @@ export const addresses = [
         imageUrls: ['Clearwater-Beach-BungalowA.jpg','Clearwater-Beach-BungalowA-LivingRoom.jpg', 'Clearwater-Beach-BungalowA-LivingRoom-view2.jpg','Clearwater-Beach-BungalowA-Kitchen.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view3.jpg', 'Clearwater-Beach-BungalowA-DiningRoom.jpg', 'Clearwater-Beach-BungalowA-Bedroom.jpg','Clearwater-Beach-BungalowA-Bedroom-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom3.jpg', 'Clearwater-Beach-BungalowA-Bathroom.jpg', 'Clearwater-Beach-BungalowA-Bathroom2.jpg', 'Clearwater-Beach-BungalowA-Bathroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Patio.jpg', 'Clearwater-Beach-BungalowA-Balcony.jpg', 'Clearwater-Beach-BungalowA-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
-        address: "9 Cambria St. Clearwater, FL 33767",
+        address: "13 Cambria St. Clearwater, FL 33767",
         description: "5 guests . 3 bedrooms . 4 beds . 2 baths",
         estimatedPrice: ""
     },
@@ -84,7 +84,7 @@ export const addresses = [
         imageUrls: ['Clearwater-Beach-BungalowB.jpg','Clearwater-Beach-BungalowB-LivingRoom.jpg', 'Clearwater-Beach-BungalowB-LivingRoom-view2.jpg','Clearwater-Beach-BungalowB-Kitchen.jpg', 'Clearwater-Beach-BungalowB-Bedroom.jpg','Clearwater-Beach-BungalowB-Bedroom-view2.jpg', 'Clearwater-Beach-BungalowB-Bathroom.jpg', 'Clearwater-Beach-BungalowB-Bathroom-view2.jpg', 'Clearwater-Beach-BungalowB-Patio.jpg', 'Clearwater-Beach-BungalowB-Patio-view2.jpg', 'Clearwater-Beach-BungalowB-Balcony.jpg', 'Clearwater-Beach-BungalowB-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' AC |', ' Wifi |', ' Free Parking 1 space |', ' Free Dryer |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Private patio or balcony ', ' Refrigerator'],
-        address: "9 Cambria St. Clearwater, FL 33767",
+        address: "13 Cambria St. Clearwater, FL 33767",
         description: "2 guests . Studio . 1 bed . 1 bath",
         estimatedPrice: ""
     },
@@ -95,7 +95,7 @@ export const addresses = [
         imageUrls: ['Clearwater-Beach-BungalowC.jpg','Clearwater-Beach-BungalowC-LivingRoom.jpg', 'Clearwater-Beach-BungalowC-Kitchen.jpg', 'Clearwater-Beach-BungalowC-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowC-Bedroom.jpg','Clearwater-Beach-BungalowC-Bedroom2.jpg', 'Clearwater-Beach-BungalowC-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowC-Bathroom.jpg', 'Clearwater-Beach-BungalowC-Bathroom-view2.jpg', 'Clearwater-Beach-BungalowC-Patio.jpg', 'Clearwater-Beach-BungalowC-Hallway.jpg'],
         itinerary: [{location: "Clearwater"}],
         tags: [' Bathtub |', ' Wifi |', ' Free Parking |', ' Dryer |', ' TV |', ' Washer |', ' Beach access |', ' Kitchen |', ' Patio or balcony ', ' Air conditioning'],
-        address: "9 Cambria St. Clearwater, FL 33767",
+        address: "13 Cambria St. Clearwater, FL 33767",
         description: "3 guests . 2 bedrooms . 2 beds . 1 bath",
         estimatedPrice: ""
     },
