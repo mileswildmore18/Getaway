@@ -5,6 +5,7 @@ import NavBar from "../../components/NavBar";
 
 const Dreamhouse = () => {
     return (
+
         <main className="home">
             {/* Header*/}
             <Header
@@ -14,7 +15,7 @@ const Dreamhouse = () => {
             {/*End of Header*/}
 
             {/* Navigation Bar for houses*/}
-            <NavBar />
+            <NavBar/>
             {/*End of Navigation Bar*/}
 
             {/* Rent */}
@@ -22,13 +23,21 @@ const Dreamhouse = () => {
                 <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center">More photos</h1>
                 {/* Add pictures of House inside and out*/}
                 <div className="rent-card-item">
-                        <Photos />
+                    <Photos/>
 
                 </div>
             </section>
             {/*End of Rent*/}
             <Footer/>
+            <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth"})}
+            className="fixed bottom-4 right-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full p-3 shadow-lg"
+            >
+            ↑ Top
+            </button>
         </main>
+
     )
 }
+
 export default Dreamhouse
