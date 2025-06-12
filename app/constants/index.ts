@@ -70,11 +70,11 @@ export const addresses = [
         id: 7,
         type: "Bungalow",
         name: "Clearwater Bungalow A",
-        imageUrls: ['Clearwater-Beach-BungalowA.jpg','Clearwater-Beach-BungalowA-LivingRoom.jpg', 'Clearwater-Beach-BungalowA-LivingRoom-view2.jpg','Clearwater-Beach-BungalowA-Kitchen.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view3.jpg', 'Clearwater-Beach-BungalowA-DiningRoom.jpg', 'Clearwater-Beach-BungalowA-Bedroom.jpg','Clearwater-Beach-BungalowA-Bedroom-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom3.jpg', 'Clearwater-Beach-BungalowA-Bathroom.jpg', 'Clearwater-Beach-BungalowA-Bathroom2.jpg', 'Clearwater-Beach-BungalowA-Bathroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Patio.jpg', 'Clearwater-Beach-BungalowA-Balcony.jpg', 'Clearwater-Beach-BungalowA-Balcony-view2.jpg'],
+        imageUrls: ['Clearwater-Beach-BungalowC.jpg','Clearwater-Beach-BungalowC-LivingRoom.jpg', 'Clearwater-Beach-BungalowC-Kitchen.jpg', 'Clearwater-Beach-BungalowC-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowC-Bedroom.jpg','Clearwater-Beach-BungalowC-Bedroom2.jpg', 'Clearwater-Beach-BungalowC-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowC-Bathroom.jpg', 'Clearwater-Beach-BungalowC-Bathroom-view2.jpg', 'Clearwater-Beach-BungalowC-Patio.jpg', 'Clearwater-Beach-BungalowC-Hallway.jpg'],
         itinerary: [{location: "Clearwater"}],
-        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
+        tags: [' Bathtub |', ' Wifi |', ' Free Parking |', ' Dryer |', ' TV |', ' Washer |', ' Beach access |', ' Kitchen |', ' Patio or balcony ', ' Air conditioning'],
         address: "13 Cambria St. Clearwater, FL 33767",
-        description: "5 guests . 3 bedrooms . 4 beds . 2 baths",
+        description: "3 guests . 2 bedrooms . 2 beds . 1 bath",
         estimatedPrice: ""
     },
     {
@@ -92,13 +92,14 @@ export const addresses = [
         id: 9,
         type: "Bungalow",
         name: "Clearwater Bungalow C",
-        imageUrls: ['Clearwater-Beach-BungalowC.jpg','Clearwater-Beach-BungalowC-LivingRoom.jpg', 'Clearwater-Beach-BungalowC-Kitchen.jpg', 'Clearwater-Beach-BungalowC-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowC-Bedroom.jpg','Clearwater-Beach-BungalowC-Bedroom2.jpg', 'Clearwater-Beach-BungalowC-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowC-Bathroom.jpg', 'Clearwater-Beach-BungalowC-Bathroom-view2.jpg', 'Clearwater-Beach-BungalowC-Patio.jpg', 'Clearwater-Beach-BungalowC-Hallway.jpg'],
+        imageUrls: ['Clearwater-Beach-BungalowA.jpg','Clearwater-Beach-BungalowA-LivingRoom.jpg', 'Clearwater-Beach-BungalowA-LivingRoom-view2.jpg','Clearwater-Beach-BungalowA-Kitchen.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view2.jpg', 'Clearwater-Beach-BungalowA-Kitchen-view3.jpg', 'Clearwater-Beach-BungalowA-DiningRoom.jpg', 'Clearwater-Beach-BungalowA-Bedroom.jpg','Clearwater-Beach-BungalowA-Bedroom-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2.jpg', 'Clearwater-Beach-BungalowA-Bedroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Bedroom3.jpg', 'Clearwater-Beach-BungalowA-Bathroom.jpg', 'Clearwater-Beach-BungalowA-Bathroom2.jpg', 'Clearwater-Beach-BungalowA-Bathroom2-view2.jpg', 'Clearwater-Beach-BungalowA-Patio.jpg', 'Clearwater-Beach-BungalowA-Balcony.jpg', 'Clearwater-Beach-BungalowA-Balcony-view2.jpg'],
         itinerary: [{location: "Clearwater"}],
-        tags: [' Bathtub |', ' Wifi |', ' Free Parking |', ' Dryer |', ' TV |', ' Washer |', ' Beach access |', ' Kitchen |', ' Patio or balcony ', ' Air conditioning'],
+        tags: [' Ocean view |', ' Wifi |', ' Free Parking |', ' Sea view |', ' TV with streaming services |', ' Free washer |', ' Shared Beach access |', ' Kitchen |', ' Dedicated workspace '],
         address: "13 Cambria St. Clearwater, FL 33767",
-        description: "3 guests . 2 bedrooms . 2 beds . 1 bath",
+        description: "5 guests . 3 bedrooms . 4 beds . 2 baths",
         estimatedPrice: ""
     },
+
     {
         id: 10,
         type: "Other",
@@ -112,7 +113,7 @@ export const addresses = [
     },
     {
         id: 11,
-        name: "Park Street Studio A",
+        name: "Park Street Unit A",
         imageUrls: ['Dunedin-Rental-Park-St.jpg', 'Dunedin-Rental-Park-St-Living-Room.jpg', 'Dunedin-Rental-Park-St-Bedroom.jpg', 'Dunedin-Rental-Park-St-Bedroom-view2.jpg', 'Dunedin-Rental-Park-St-Bathroom.jpg', 'Dunedin-Rental-Park-St-Kitchen.jpg', 'Dunedin-Rental-Park-St-Kitchen-view2.jpg'],
         itinerary: [{location: "Dunedin"}],
         tags: [' Courtyard view |', ' Wifi |', ' Free parking on premises |', ' Free washer |', ' AC |', ' Kitchen |', ' Dedicated workspace |', ' TV |', ' Free dryer |'],
@@ -133,7 +134,7 @@ export const addresses = [
         name: "Louden Avenue",
         imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg', 'Dunedin-Louden-Ave-Entrance.jpg'],
         itinerary: [{location: "Dunedin"}],
-        tags: [' Courtyard view |', ' Wifi |', ' Kitchen |', ' Free parking on premises |', ' Washer |', ' Central air conditioning |', ' Beach access - Beachfront |', ' TV |', ' Dryer'],
+        tags: [' Courtyard view |', ' Wifi |', ' Kitchen |', ' Free parking on premises |', ' Washer |', ' Central air conditioning |', ' TV |', ' Dryer'],
         address: "813 Louden Ave. Dunedin, FL 34698",
         description: "6 guests . 2 bedrooms . 3 beds . 2 baths"
     },
@@ -152,7 +153,7 @@ export const addresses = [
         name: "Waynesville",
         imageUrls: ['Waynesville.jpg', 'Waynesville-Backyard.jpg', 'Waynesville-Living-Room.jpg', 'Waynesville-Kitchen.jpg', 'Waynesville-Dining.jpg', 'Waynesville-Bedroom1.jpg', 'Waynesville-Bedroom2.jpg', 'Waynesville-Bedroom3.jpg', 'Waynesville-Bedroom4.jpg', 'Waynesville-Bathroom1.jpg', 'Waynesville-Bathroom2.jpg', 'Waynesville-Bathroom3.jpg', 'Waynesville-Gameroom.jpg', 'Waynesville-Exterior.jpg', 'Waynesville-Hottub.jpg'],
         itinerary: [{location: "North Carolina"}],
-        tags: [' Waterfront |', ' Wifi |', ' Free Parking |', ' Pets allowed |', ' Washer |', ' Kitchen |', ' Dedicated workspace |', ' Hot tub |', 'HDTV with Roku and streaming services |', ' Exterior security cameras'],
+        tags: [' Waterfront |', ' Wifi |', ' Free Parking |', ' Pets allowed |', ' Washer |', ' Kitchen |', ' Dedicated workspace |', ' Hot tub |', 'HDTV with Roku and streaming services |'],
         address: "222 Brushy Creek Ln. Waynesville, NC 28785",
         description: "8 guests . 4 bedrooms . 5 beds . 3 baths",
         estimatedPrice: ""
