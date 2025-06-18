@@ -157,7 +157,17 @@ export const addresses = [
         address: "222 Brushy Creek Ln. Waynesville, NC 28785",
         description: "8 guests . 4 bedrooms . 5 beds . 3 baths",
         estimatedPrice: ""
-    }
+    },
+    {
+        id: 16,
+        name: "Queens",
+        imageUrls: ['Queens-New-York.jpg', 'Queens-New-York-LivingRoom.jpg', 'Queens-New-York-Kitchen.jpg', 'Queens-New-York-Kitchen-view2.jpg', 'Queens-New-York-workspace.jpg', 'Queens-New-York-hallway.jpg', 'Queens-New-York-DressingRoom.jpg', 'Queens-New-York-Bathroom.jpg', 'Queens-New-York-Bedroom.jpg'],
+        itinerary: [{location: "Queens"}],
+        tags: [' Kitchen |', ' Wifi |', ' Free street parking |', ' TV |', ' AC |', ' Private patio or balcony |', ' Backyard |', ' Hair dryer |', ' Frigidaire Gallery refrigerator |', ' Microwave'],
+        address: "Ellwell Crescent. Queens, NY 11374",
+        description: "4 guests . 1 bedrooms . 2 beds . 1 bath",
+        estimatedPrice: ""
+    },
 ]
 
 // Location details and photos on Home page
@@ -216,6 +226,13 @@ export const locations = [{
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",
         tags: ['8 guests . 4 bedrooms . 5 beds . 3 baths']
+    },
+    {
+        id: 8,
+        name: "Queens",
+        imageUrl: ['/assets/images/Queens-New-York.jpg'],
+        location: "Queens, New York",
+        tags: ['4 guests . 1 bedroom . 2 beds . 1 bath']
     },
 ]
 
