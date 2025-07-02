@@ -177,7 +177,7 @@ export const locations = [{
     },
     {
         id: 3,
-        name: "Dunedin",
+        name: "Virginia Street",
         imageUrl: ['/assets/images/Dunedin.jpg'],
         location: "Dunedin, FL",
         tags: ['12 guests . 5 bedrooms . 8 beds . 5.5 baths']
@@ -205,14 +205,14 @@ export const locations = [{
     },
     {
         id: 7,
-        name: "Tarpon Springs",
+        name: "Riverside Dr.",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
         location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
         id: 8,
-        name: "Waynesville",
+        name: "Brushy Creek Ln.",
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",
         tags: ['8 guests . 4 bedrooms . 5 beds . 3 baths']

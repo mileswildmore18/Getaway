@@ -8,7 +8,7 @@ type HouseAddress = {
     tags: string[];
 };
 
-const Rent = ({ id, name, imageUrl, location, tags }: HouseAddress) => {
+const Rent = ({ name, imageUrl, location, tags }: HouseAddress) => {
     return (
         <Link
             to={`/dreamhouse/`}
@@ -18,7 +18,7 @@ const Rent = ({ id, name, imageUrl, location, tags }: HouseAddress) => {
                 src={imageUrl}
                 alt={name} />
             <article>
-                <h2 className="flex justify-center">{name}</h2>
+                <h2 className="flex justify-center text-center">{name}</h2>
                 <h3 className="flex justify-center">{location}</h3>
                 <h3 className="flex justify-center">{tags}</h3>
             </article>

@@ -20,10 +20,10 @@ const Dreamhouse = () => {
 
             {/* Rent */}
             <section className="container">
-                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center">More photos</h1>
+                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 text-center flex justify-center">Short Term Rentals</h1>
                 {/* Add pictures of House inside and out*/}
                 <div className="rent-card-item">
-                    <Photos/>
+                    <Photos />
 
                 </div>
             </section>
