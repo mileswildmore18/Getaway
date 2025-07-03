@@ -41,21 +41,11 @@ const Home = () => {
                     <div key={city} className="my-10">
                         <h2 className="text-4xl font-bold text-blue-600 mb-4 text-center">{city}</h2>
                         <div className="rent-card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {group.map(({id, name, imageUrl, location, tags}: {
-                                id: number,
-                                name: string,
-                                imageUrl: string[],
-                                location: string,
-                                tags: string[]
-                            }) => (
-                                <div key={id} id={`location-${id}`} className="rent-card-item">
+                            {group.map((locationObj: typeof locations[0] ) => (
+                                <div key={locationObj.id} id={`location-${locationObj.id}`} className="rent-card-item">
                                     <Rent
-                                        id={id}
-                                        name={name}
-                                        imageUrl={imageUrl[0]}
-                                        location={location}
-                                        tags={tags}
-                                        type={name.split(" ")[2] || "Other"}
+                                        {...locationObj}
+                                        imageUrl={locationObj.imageUrl[0]} // flatten
                                     />
                                 </div>
                             ))}

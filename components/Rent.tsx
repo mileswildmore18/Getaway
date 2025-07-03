@@ -6,16 +6,16 @@ type HouseAddress = {
     imageUrl: string;
     location: string;
     tags: string[];
-    type: string;
+    type?: string;
+    isGroupCard?: boolean;
+    groupId?: string;
 };
 
-const Rent = ({ id, name, imageUrl, location, tags, type }: HouseAddress) => {
+const Rent = ({ id, name, imageUrl, location, tags, isGroupCard, groupId }: HouseAddress) => {
     let to = "";
 
-    if (location === "Clearwater, FL" && type ==="Condo") {
-        to = "/dreamhouse/group/clearwater-condos";
-    } else if (location === "Clearwater, FL" && type ===("Bungalow")) {
-        to = "/dreamhouse/group/clearwater-bungalows";
+    if (isGroupCard && groupId) {
+        to = `/dreamhouse/group/${groupId}`;
     } else {
         to = `/dreamhouse/${id}`;
     }

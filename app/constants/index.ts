@@ -171,14 +171,18 @@ export const locations = [{
     name: "Clearwater Beach Condos",
     imageUrl: ['/assets/images/Clearwater-9-Cambria.jpg'],
     location: "Clearwater, FL",
-    tags: ['6 Condos into 1']
+    tags: ['6 Condos into 1'],
+    isGroupCard: true,
+    groupId: "clearwater-condos"
 },
     {
         id: 2,
         name: "Clearwater Beach Bungalows",
         imageUrl: ['/assets/images/Clearwater-13-Cambria.jpg'],
         location: "Clearwater, FL",
-        tags: ['3 Bungalow Studios']
+        tags: ['3 Bungalow Studios'],
+        isGroupCard: true,
+        groupId: "clearwater-bungalows"
     },
     {
         id: 3,

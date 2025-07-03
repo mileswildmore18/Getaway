@@ -11,7 +11,7 @@ const DreamHouseId = () => {
         return <div className="text-center text-red-500"> House not found</div>;
     }
 
-    return <div className="max-w-4xl mx auto p-6">
+    return <div className="max-w-4xl mx-auto p-6">
         <h1 className="text-3xl font-bold mb-4 text-center">{house.name}</h1>
         <p className="text-center text-gray-600 mb-4">{house.address}</p>
         <div className="grid grid-cols-2 md: grid-cols-3 gap-4 mb-4">

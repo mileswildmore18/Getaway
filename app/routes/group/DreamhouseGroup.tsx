@@ -1,9 +1,15 @@
 import { useParams } from "react-router-dom";
 import { addresses } from "~/constants";
 
-const groupMap: Record<string, { type: string; count: number }> = {
-    "clearwater-condos": { type: "Condo", count: 6 },
-    "clearwater-bungalows": { type: "Bungalow", count: 3 },
+const groupMap: Record<string, { title: string; ids: number[] }> = {
+    "clearwater-condos": {
+        title: "Clearwater Beach Condos",
+        ids: [1, 2, 3, 4, 5 ,6],
+    },
+    "clearwater-bungalows": {
+        title: "Clearwater Beach Condos",
+        ids: [7, 8, 9],
+    },
 };
 
 const DreamhouseGroup = () => {
@@ -16,13 +22,13 @@ const DreamhouseGroup = () => {
     }
 
     const groupHouses = addresses.filter(
-        (house) => house.type === groupConfig.type && house.itinerary[0].location === "Clearwater"
-    ).slice(0, groupConfig.count);
+        house => groupConfig.ids.includes(house.id)
+        );
 
     return (
         <div className="max-w-5xl mx-auto p-6">
             <h1 className="text-3xl font-bold mb-6 text-center capitalize">
-                {groupId?.replace(/-/g, " ")}
+                {groupConfig.title}
             </h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
