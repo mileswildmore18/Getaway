@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { addresses } from "~/constants";
 
 // Photos

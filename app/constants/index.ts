@@ -113,6 +113,7 @@ export const addresses = [
     },
     {
         id: 11,
+        type: "Other",
         name: "Park Street Unit A",
         imageUrls: ['Dunedin-Rental-Park-St.jpg', 'Dunedin-Rental-Park-St-Living-Room.jpg', 'Dunedin-Rental-Park-St-Bedroom.jpg', 'Dunedin-Rental-Park-St-Bedroom-view2.jpg', 'Dunedin-Rental-Park-St-Bathroom.jpg', 'Dunedin-Rental-Park-St-Kitchen.jpg', 'Dunedin-Rental-Park-St-Kitchen-view2.jpg'],
         itinerary: [{location: "Dunedin"}],
@@ -122,6 +123,7 @@ export const addresses = [
     },
     {
         id: 12,
+        type: "Other",
         name: "Park Street Studio B",
         imageUrls: ['Dunedin-Rental-Park-St-B.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom-view2.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom-view3.jpg', 'Dunedin-Rental-Park-St-B-Kitchen.jpg', 'Dunedin-Rental-Park-St-B-DiningRoom.jpg', 'Dunedin-Rental-Park-St-B-Bedroom.jpg', 'Dunedin-Rental-Park-St-B-Bathroom.jpg', 'Dunedin-Rental-Park-St-B-Bathroom-view2.jpg'],
         itinerary: [{location: "Dunedin"}],
@@ -131,6 +133,7 @@ export const addresses = [
     },
     {
         id: 13,
+        type: "Other",
         name: "Louden Avenue",
         imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg', 'Dunedin-Louden-Ave-Entrance.jpg'],
         itinerary: [{location: "Dunedin"}],
@@ -140,6 +143,7 @@ export const addresses = [
     },
     {
         id: 14,
+        type: "River",
         name: "Tarpon Springs",
         imageUrls: ['Tarpon-Springs.jpg', 'Tarpon-Springs-LivingRoom.jpg', 'Tarpon-Springs-DiningRoom.jpg', 'Tarpon-Springs-Kitchen.jpg', 'Tarpon-Springs-Gameroom.jpg', 'Tarpon-Springs-UtilityRoom.jpg', 'Tarpon-Springs-Bedroom1.jpg', 'Tarpon-Springs-Bedroom2.jpg', 'Tarpon-Springs-Bedroom3.jpg', 'Tarpon-Springs-Outdoor1.jpg', 'Tarpon-Springs-Outdoor2.jpg', 'Tarpon-Springs-Bathroom1.jpg', 'Tarpon-Springs-Bathroom2.jpg',],
         itinerary: [{location: "Tarpon Springs"}],
@@ -150,6 +154,7 @@ export const addresses = [
     },
     {
         id: 15,
+        type: "State",
         name: "Waynesville",
         imageUrls: ['Waynesville.jpg', 'Waynesville-Backyard.jpg', 'Waynesville-Living-Room.jpg', 'Waynesville-Kitchen.jpg', 'Waynesville-Dining.jpg', 'Waynesville-Bedroom1.jpg', 'Waynesville-Bedroom2.jpg', 'Waynesville-Bedroom3.jpg', 'Waynesville-Bedroom4.jpg', 'Waynesville-Bathroom1.jpg', 'Waynesville-Bathroom2.jpg', 'Waynesville-Bathroom3.jpg', 'Waynesville-Gameroom.jpg', 'Waynesville-Exterior.jpg', 'Waynesville-Hottub.jpg'],
         itinerary: [{location: "North Carolina"}],

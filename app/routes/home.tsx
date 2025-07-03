@@ -29,34 +29,48 @@ const Home = () => {
             />
             {/*End of Header*/}
 
-            <NavBarHome />
+            <NavBarHome/>
 
             {/* Rent */}
             <section className="container">
                 <h1
-                    className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center text-center hover:text-blue-400"><a href="/dreamhouse">Choose your dream house</a></h1>
-                    {/* Grouped Cards */}
+                    className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center text-center hover:text-blue-400">
+                    <a href="/dreamhouse">Choose your dream house</a></h1>
+                {/* Grouped Cards */}
                 {Object.entries(groupedLocations).map(([city, group]) => (
                     <div key={city} className="my-10">
                         <h2 className="text-4xl font-bold text-blue-600 mb-4 text-center">{city}</h2>
                         <div className="rent-card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {group.map(({id, name, imageUrl, location, tags}: {id: number, name: string, imageUrl: string[], location: string, tags: string[]}) => (
-                        <div key={id} id={`location-${id}`} className="rent-card-item">
-                        <Rent
-                            id={id}
-                            name={name}
-                            imageUrl={imageUrl[0]}
-                            location={location}
-                            tags={tags}
-                        />
+                            {group.map(({id, name, imageUrl, location, tags}: {
+                                id: number,
+                                name: string,
+                                imageUrl: string[],
+                                location: string,
+                                tags: string[]
+                            }) => (
+                                <div key={id} id={`location-${id}`} className="rent-card-item">
+                                    <Rent
+                                        id={id}
+                                        name={name}
+                                        imageUrl={imageUrl[0]}
+                                        location={location}
+                                        tags={tags}
+                                        type={name.split(" ")[2] || "Other"}
+                                    />
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                    ))}
-                </div>
-                    </div>
-                    ))}
+                ))}
             </section>
             {/*End of Rent*/}
-            <Footer />
+            <Footer/>
+            <button
+                onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                className="fixed bottom-4 right-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full p-3 shadow-lg"
+            >
+                ↑ Top
+            </button>
         </main>
 
     )
