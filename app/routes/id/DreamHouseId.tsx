@@ -32,14 +32,6 @@ const DreamHouseId = () => {
                     className="rounded-lg shadow"
                 />
             ))}
-            {house.imageUrls.map((imageUrl, index) => (
-                <img
-                    key={index}
-                    src={`/assets/images/${imageUrl}`}
-                    alt={`${house.name} ${index + 1}`}
-                    className="rounded-lg shadow"
-                />
-            ))}
         </div>
 
         {/*Toggle button to show more photos*/}
