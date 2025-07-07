@@ -145,7 +145,7 @@ export const addresses = [
         id: 14,
         type: "River",
         name: "Tarpon Springs",
-        imageUrls: ['Tarpon-Springs.jpg', 'Tarpon-Springs-LivingRoom.jpg', 'Tarpon-Springs-DiningRoom.jpg', 'Tarpon-Springs-Kitchen.jpg', 'Tarpon-Springs-Gameroom.jpg', 'Tarpon-Springs-UtilityRoom.jpg', 'Tarpon-Springs-Bedroom1.jpg', 'Tarpon-Springs-Bedroom2.jpg', 'Tarpon-Springs-Bedroom3.jpg', 'Tarpon-Springs-Outdoor1.jpg', 'Tarpon-Springs-Outdoor2.jpg', 'Tarpon-Springs-Bathroom1.jpg', 'Tarpon-Springs-Bathroom2.jpg',],
+        imageUrls: ['Tarpon-Springs.jpg', 'Tarpon-Springs-LivingRoom.jpg', 'Tarpon-Springs-DiningRoom.jpg', 'Tarpon-Springs-Kitchen.jpg', 'Tarpon-Springs-Gameroom.jpg', 'Tarpon-Springs-UtilityRoom.jpg', 'Tarpon-Springs-Bedroom1.jpg', 'Tarpon-Springs-Bedroom2.jpg', 'Tarpon-Springs-Bedroom3.jpg', 'Tarpon-Springs-Outdoor1.jpg', 'Tarpon-Springs-Outdoor2.jpg', 'Tarpon-Springs-Bathroom2.jpg', 'Tarpon-Springs-Bathroom1.jpg',],
         itinerary: [{location: "Tarpon Springs"}],
         tags: [' Shared Beach access |', ' Fast Wifi - 335 Mbps |', ' Free Parking |', ' 65 inch HDTV with streaming services |', ' Exterior security cameras |', ' Kitchen |', ' Dedicated workspace |', ' Pets allowed |', ' Free washer'],
         address: "850 Riverside Dr. Tarpon Springs, FL 34689",
@@ -176,7 +176,7 @@ export const locations = [{
     groupId: "clearwater-condos"
 },
     {
-        id: 2,
+        id: 7,
         name: "Clearwater Beach Bungalows",
         imageUrl: ['/assets/images/Clearwater-13-Cambria.jpg'],
         location: "Clearwater, FL",
@@ -185,42 +185,42 @@ export const locations = [{
         groupId: "clearwater-bungalows"
     },
     {
-        id: 3,
+        id: 10,
         name: "Virginia Street",
         imageUrl: ['/assets/images/Dunedin.jpg'],
         location: "Dunedin, FL",
         tags: ['12 guests . 5 bedrooms . 8 beds . 5.5 baths']
     },
     {
-        id: 4,
+        id: 11,
         name: "Dunedin Rental - Park Street A",
         imageUrl: ['/assets/images/Dunedin-Rental-Park-St.jpg'],
         location: "Dunedin, FL",
         tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
     },
     {
-        id: 5,
+        id: 12,
         name: "Dunedin Rental - Park Street B",
         imageUrl: ['/assets/images/Dunedin-Rental-Park-St-B.jpg'],
         location: "Dunedin, FL",
         tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
     },
     {
-        id: 6,
+        id: 13,
         name: "Dunedin Rental - Louden Avenue",
         imageUrl: ['/assets/images/Dunedin-Louden-Ave.jpg'],
         location: "Dunedin, FL",
         tags: ['6 guests . 2 bedrooms . 3 beds . 2 baths']
     },
     {
-        id: 7,
+        id: 14,
         name: "Riverside Dr.",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
         location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
-        id: 8,
+        id: 15,
         name: "Brushy Creek Ln.",
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",

@@ -16,4 +16,6 @@ declare interface HouseAddress {
     imageUrl: string;
     location: string;
     tags: string[];
+    isGroupCard: boolean;
+    groupId: string;
 }

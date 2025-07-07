@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Photos from "../../components/Photos";
+import {Outlet} from "react-router";
 import NavBar from "../../components/NavBar";
 
 const Dreamhouse = () => {
@@ -20,12 +20,13 @@ const Dreamhouse = () => {
 
             {/* Rent */}
             <section className="container">
-                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 text-center flex justify-center">Short Term Rentals</h1>
+                <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 text-center flex justify-center">Short
+                    Term Rentals</h1>
                 {/* Add pictures of House inside and out*/}
                 <div className="rent-card-item">
-                    <Photos />
-
+                    <Outlet />
                 </div>
+
             </section>
             {/*End of Rent*/}
             <Footer/>

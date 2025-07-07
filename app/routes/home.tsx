@@ -34,8 +34,8 @@ const Home = () => {
             {/* Rent */}
             <section className="container">
                 <h1
-                    className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center text-center hover:text-blue-400">
-                    <a href="/dreamhouse">Choose your dream house</a></h1>
+                    className="text-5xl text-gray-600 font-semibold text-dark-100 flex justify-center text-center">
+                    Choose your dream house</h1>
                 {/* Grouped Cards */}
                 {Object.entries(groupedLocations).map(([city, group]) => (
                     <div key={city} className="my-10">
