@@ -37,17 +37,17 @@ const DreamhouseGroup = () => {
                 {groupConfig.title}
             </h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="flex flex-col grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {groupHouses.map((house) => (
-                    <div key={house.id} className="border p-4 rounded shadow">
-                        <h2 className="font-semibold text-lg mb-2">{house.name}</h2>
+                    <div key={house.id} className="p-4">
+                        <h2 className="font-semibold text-lg text-center mb-2 text-blue-700">{house.name}</h2>
                         <img
                             src={`/assets/images/${house.imageUrls[0]}`}
                             alt={house.name}
                             className="rounded-lg mb-2"
                         />
-                        <p className="text-sm text-gray-600">{house.description}</p>
-                        <p className="text-sm text-gray-500">{house.address}</p>
+                        <p className="text-sm text-gray-600 mb-2">{house.description}</p>
+                        <p className="text-sm text-gray-500 mb-3">{house.address}</p>
                         <p className="text-sm text-gray-700 font-medium">{house.tags.join(" ")}</p>
 
                         {house.imageUrls.length > 1 && (

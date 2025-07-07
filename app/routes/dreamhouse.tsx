@@ -14,10 +14,6 @@ const Dreamhouse = () => {
             />
             {/*End of Header*/}
 
-            {/* Navigation Bar for houses*/}
-            <NavBar/>
-            {/*End of Navigation Bar*/}
-
             {/* Rent */}
             <section className="container">
                 <h1 className="text-5xl text-gray-600 font-semibold text-dark-100 text-center flex justify-center">Short
