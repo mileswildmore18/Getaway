@@ -21,9 +21,12 @@ const Rent = ({ id, name, imageUrl, location, tags, isGroupCard, groupId }: Hous
     }
 
     return (
-        <Link to={to} className="rent">
-            <img src={imageUrl} alt={name} />
-            <article>
+        <Link to={to} className="rent block hover:shadow-lg transition-transform duration-300">
+            <img
+                 src={imageUrl}
+                 alt={name}
+                 className="w-full h-auto transform hover:scale-105 transition-transform duration-300 ease-in-out"/>
+            <article className="mt-2 text-center">
                 <h2 className="flex justify-center">{name}</h2>
                 <h3 className="flex justify-center">{location}</h3>
                 <h3 className="flex justify-center">{tags}</h3>
