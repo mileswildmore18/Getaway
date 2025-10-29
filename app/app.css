@@ -12,8 +12,9 @@
     --color-blue-500: #4fb1bf;
     --color-green-100: #d0ffba;
     --color-green-200: #9afd85;
-    --color-yellow-200: #f8d44d;
+    --color-yellow-200: #fff6c3;
     --color-dark-100: #1b1a1a;
+    --color-blue-600: #1d5c54;
     --font-lugrasimo: 'Lugrasimo', cursive;
 }
 
@@ -33,7 +34,7 @@
     }
     /* Properties for the header*/
     .header {
-        @apply font-bold flex justify-center w-full bg-green-900 text-yellow-400 p-6 mb-2;
+        @apply font-bold flex justify-center w-full bg-blue-600 text-white p-6 mb-2;
 
         article {
             @apply flex flex-col justify-center text-2xl w-full;

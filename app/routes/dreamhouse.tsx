@@ -9,7 +9,7 @@ const Dreamhouse = () => {
         <main className="home">
             {/* Header*/}
             <Header
-                title={"Gulf GetAway"}
+                title={"Gulf Getaway"}
                 description={"Call Kristen at 727-288-8354 for more details"}
             />
             {/*End of Header*/}

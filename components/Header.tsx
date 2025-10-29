@@ -17,7 +17,7 @@ const Header = ({title, description}: Props) => {
                 <h1
                     className={cn("text-6xl font-bold font-mono font-lugrasimo flex justify-center items-center text-center")}>{title}</h1>
                 <p
-                    className={cn("text-2xl font-bold font-mono flex justify-center bg-green-900 text-yellow-400 p-6 text-center")}>{description}</p>
+                    className={cn("text-2xl font-bold font-mono flex justify-center bg-blue-600 text-white p-6 text-center")}>{description}</p>
 
                 {/* Wave Animation */}
                 <div className="wave-container">
