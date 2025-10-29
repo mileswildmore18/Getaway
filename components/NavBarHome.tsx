@@ -17,11 +17,11 @@ const NavBarHome = () => {
     const groupedLocations = groupByCity(locations);
 
     return (
-        <div className="w-full flex flex-wrap justify-center gap-4 bg-yellow-200 py-4 shadow text-xl">
+        <div className="w-full flex flex-wrap justify-center gap-4 bg-blue-700 py-4 shadow text-xl">
             {Object.entries(groupedLocations).map(([city, cityLocations]) => (
                 <details
                     key={city}
-                    className="bg-green-100 rounded shadow-md px-4 py-2 cursor-pointer group"
+                    className="bg-blue-100 rounded shadow-md px-4 py-2 cursor-pointer group"
                 >
                     <summary className="text-blue-600 font-semibold group-hover:text-blue-600 cursor-pointer">
                         {city}

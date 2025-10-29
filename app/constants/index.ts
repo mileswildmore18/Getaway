@@ -103,17 +103,6 @@ export const addresses = [
     {
         id: 10,
         type: "Other",
-        name: "Virginia Street",
-        imageUrls: ['Dunedin.jpg', 'Dunedin-LivingRoom.jpg', 'Dunedin-LivingRoom2.jpg', 'Dunedin-Kitchen.jpg', 'Dunedin-DiningRoom.jpg', 'Dunedin-Bedroom1.jpg', 'Dunedin-Bedroom2.jpg', 'Dunedin-Bedroom3.jpg', 'Dunedin-Bedroom4.jpg', 'Dunedin-Bedroom5.jpg', 'Dunedin-Bathroom1.jpg', 'Dunedin-Bathroom2.jpg', 'Dunedin-Bathroom3.jpg', 'Dunedin-Bathroom4.jpg', 'Dunedin-Bathroom5.jpg', 'Dunedin-Bathroom6.jpg', 'Dunedin-Laundryroom.jpg', 'Dunedin-Backyard.jpg'],
-        itinerary: [{location: "Dunedin"}],
-        tags: ['Lake access |', ' Wifi |', ' Washer |', ' TV |', ' Kitchen |', ' Dedicated Workspace |', ' Free Parking |', ' Air conditioning |', ' Free Dryer |'],
-        address: "1089 Virginia St. Dunedin, FL 34698",
-        description: "12 guests . 5 bedrooms . 8 beds . 5.5 baths",
-        estimatedPrice: ""
-    },
-    {
-        id: 11,
-        type: "Other",
         name: "Park Street Unit A",
         imageUrls: ['Dunedin-Rental-Park-St.jpg', 'Dunedin-Rental-Park-St-Living-Room.jpg', 'Dunedin-Rental-Park-St-Bedroom.jpg', 'Dunedin-Rental-Park-St-Bedroom-view2.jpg', 'Dunedin-Rental-Park-St-Bathroom.jpg', 'Dunedin-Rental-Park-St-Kitchen.jpg', 'Dunedin-Rental-Park-St-Kitchen-view2.jpg'],
         itinerary: [{location: "Dunedin"}],
@@ -122,7 +111,7 @@ export const addresses = [
         description: "2 guests . 1 bedroom . 1 beds . 1 bath"
     },
     {
-        id: 12,
+        id: 11,
         type: "Other",
         name: "Park Street Studio B",
         imageUrls: ['Dunedin-Rental-Park-St-B.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom-view2.jpg', 'Dunedin-Rental-Park-St-B-LivingRoom-view3.jpg', 'Dunedin-Rental-Park-St-B-Kitchen.jpg', 'Dunedin-Rental-Park-St-B-DiningRoom.jpg', 'Dunedin-Rental-Park-St-B-Bedroom.jpg', 'Dunedin-Rental-Park-St-B-Bathroom.jpg', 'Dunedin-Rental-Park-St-B-Bathroom-view2.jpg'],
@@ -132,7 +121,7 @@ export const addresses = [
         description: "2 guests . 1 bedroom . 1 beds . 1 bath"
     },
     {
-        id: 13,
+        id: 12,
         type: "Other",
         name: "Louden Avenue",
         imageUrls: ['Dunedin-Louden-Ave.jpg', 'Dunedin-Louden-Ave-Bedroom.jpg', 'Dunedin-Louden-Ave-Bedroom-view2.jpg', 'Dunedin-Louden-Ave-Bedroom2.jpg', 'Dunedin-Louden-Ave-Bedroom2-view2.jpg', 'Dunedin-Louden-Ave-LivingRoom.jpg', 'Dunedin-Louden-Ave-LivingRoom-view2.jpg', 'Dunedin-Louden-Ave-Kitchen.jpg', 'Dunedin-Louden-Ave-Kitchen-view2.jpg', 'Dunedin-Louden-Ave-Bathroom.jpg', 'Dunedin-Louden-Ave-Backyard.jpg', 'Dunedin-Louden-Ave-FrontPorch.jpg', 'Dunedin-Louden-Ave-Entrance.jpg'],
@@ -142,7 +131,7 @@ export const addresses = [
         description: "6 guests . 2 bedrooms . 3 beds . 2 baths"
     },
     {
-        id: 14,
+        id: 13,
         type: "River",
         name: "Tarpon Springs",
         imageUrls: ['Tarpon-Springs.jpg', 'Tarpon-Springs-LivingRoom.jpg', 'Tarpon-Springs-DiningRoom.jpg', 'Tarpon-Springs-Kitchen.jpg', 'Tarpon-Springs-Gameroom.jpg', 'Tarpon-Springs-UtilityRoom.jpg', 'Tarpon-Springs-Bedroom1.jpg', 'Tarpon-Springs-Bedroom2.jpg', 'Tarpon-Springs-Bedroom3.jpg', 'Tarpon-Springs-Outdoor1.jpg', 'Tarpon-Springs-Outdoor2.jpg', 'Tarpon-Springs-Bathroom2.jpg', 'Tarpon-Springs-Bathroom1.jpg',],
@@ -153,7 +142,7 @@ export const addresses = [
         estimatedPrice: ""
     },
     {
-        id: 15,
+        id: 14,
         type: "State",
         name: "Waynesville",
         imageUrls: ['Waynesville.jpg', 'Waynesville-Backyard.jpg', 'Waynesville-Living-Room.jpg', 'Waynesville-Kitchen.jpg', 'Waynesville-Dining.jpg', 'Waynesville-Bedroom1.jpg', 'Waynesville-Bedroom2.jpg', 'Waynesville-Bedroom3.jpg', 'Waynesville-Bedroom4.jpg', 'Waynesville-Bathroom1.jpg', 'Waynesville-Bathroom2.jpg', 'Waynesville-Bathroom3.jpg', 'Waynesville-Gameroom.jpg', 'Waynesville-Exterior.jpg', 'Waynesville-Hottub.jpg'],
@@ -183,13 +172,6 @@ export const locations = [{
         tags: ['3 Bungalow Studios'],
         isGroupCard: true,
         groupId: "clearwater-bungalows"
-    },
-    {
-        id: 10,
-        name: "Virginia Street",
-        imageUrl: ['/assets/images/Dunedin.jpg'],
-        location: "Dunedin, FL",
-        tags: ['12 guests . 5 bedrooms . 8 beds . 5.5 baths']
     },
     {
         id: 11,
