@@ -174,35 +174,35 @@ export const locations = [{
         groupId: "clearwater-bungalows"
     },
     {
-        id: 11,
+        id: 10,
         name: "Dunedin Rental - Park Street A",
         imageUrl: ['/assets/images/Dunedin-Rental-Park-St.jpg'],
         location: "Dunedin, FL",
         tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
     },
     {
-        id: 12,
+        id: 11,
         name: "Dunedin Rental - Park Street B",
         imageUrl: ['/assets/images/Dunedin-Rental-Park-St-B.jpg'],
         location: "Dunedin, FL",
         tags: ['2 guests . 1 bedroom . 1 beds . 1 bath']
     },
     {
-        id: 13,
+        id: 12,
         name: "Dunedin Rental - Louden Avenue",
         imageUrl: ['/assets/images/Dunedin-Louden-Ave.jpg'],
         location: "Dunedin, FL",
         tags: ['6 guests . 2 bedrooms . 3 beds . 2 baths']
     },
     {
-        id: 14,
+        id: 13,
         name: "Riverside Dr.",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
         location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
-        id: 15,
+        id: 14,
         name: "Brushy Creek Ln.",
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",
