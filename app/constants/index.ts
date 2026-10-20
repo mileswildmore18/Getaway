@@ -136,7 +136,7 @@ export const addresses = [
         name: "Palm Harbor",
         imageUrls:  ['Palm-Harbor-Living-Room.jpg', 'Palm-Harbor-Living-Room-view2.jpg', 'Palm-Harbor-Living-Room-view3.jpg', 'Palm-Harbor-Living-Room-view4.jpg', 'Palm-Harbor-Kitchen.jpg', 'Palm-Harbor-Kitchen-view2.jpg', 'Palm-Harbor-Kitchen-view3.jpg', 'Palm-Harbor-Kitchen-view4.jpg', 'Palm-Harbor-Kitchen-view5.jpg', 'Palm-Harbor-Kitchen-view6.jpg', 'Palm-Harbor-Bedroom1.jpg', 'Palm-Harbor-Bedroom1-view2.jpg', 'Palm-Harbor-Bedroom2.jpg', 'Palm-Harbor-Bedroom2-view2.jpg', 'Palm-Harbor-Bedroom3.jpg', 'Palm-Harbor-Bedroom4.jpg', 'Palm-Harbor-Bedroom4-view2.jpg', 'Palm-Harbor-Bedroom4-view3.jpg', 'Palm-Harbor-Bathroom.jpg', 'Palm-Harbor-Bathroom-view2.jpg', 'Palm-Harbor-Bathroom2.jpg', 'Palm-Harbor-Bathroom2-view2.jpg', 'Palm-Harbor-Office.jpg', 'Palm-Harbor-Office-view2.jpg', 'Palm-Harbor-Exterior.jpg', 'Palm-Harbor-Exterior-view2.jpg', 'Palm-Harbor-Exterior-view3.jpg', 'Palm-Harbor-ExteriorPool.jpg', 'Palm-Harbor-ExteriorPool-view2.jpg', 'Palm-Harbor-ExteriorDock.jpg', 'Palm-Harbor-ExteriorDock-view2.jpg', 'Palm-Harbor-ExteriorDock-view3.jpg', 'Palm-Harbor-ExteriorView.jpg', 'Palm-Harbor-ExteriorBack.jpg', 'Palm-Harbor-Ozona.jpg', 'Palm-Harbor-Ozona2.jpg' ],
         itinerary: [{location: "Palm Harbor"}],
-        tags: [' Waterfront |', ' Wifi |', ' Free parking on premises |', ' TV |', ' Free dryer - In unit |', ' Kitchen |', ' Dedicated workspace |', ' Pool |', ' Washer |', ' Air conditioning '],
+        tags: [' Waterfront |', 'Boat Slip', ' Wifi |', ' Free parking on premises |', ' TV |', ' Free dryer - In unit |', ' Kitchen |', ' Dedicated workspace |', ' Pool |', ' Washer |', ' Air conditioning '],
         address: "301 Banana St. Palm Harbor, FL 34683",
         description: "6 guests . 4 bedrooms . 4 beds . 2 baths . FREE Golf Cart"
     },
@@ -209,7 +209,7 @@ export const locations = [{
         name: "Waterfront - Palm Harbor",
         imageUrl: ['/assets/images/Palm-Harbor-Living-Room.jpg'],
         location: "Palm Harbor, FL",
-        tags: ['6 guests . 4 bedrooms . 4 beds . 2 baths . FREE Golf Cart']
+        tags: ['6 guests . 4 bedrooms . 4 beds . 2 baths . Boat Slip . FREE Golf Cart']
     },
     {
         id: 14,
