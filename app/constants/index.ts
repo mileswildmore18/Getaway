@@ -132,6 +132,16 @@ export const addresses = [
     },
     {
         id: 13,
+        type: "Palm",
+        name: "Palm Harbor",
+        imageUrls:  ['Palm-Harbor-Living-Room.jpg'],
+        itinerary: [{location: "Palm Harbor"}],
+        tags: [' Waterfront |', ' Wifi |', ' Free parking on premises |', ' TV |', ' Free dryer - In unit |', ' Kitchen |', ' Dedicated workspace |', ' Pool |', ' Washer |', ' Air conditioning '],
+        address: "301 Banana St. Palm Harbor, FL 34683",
+        description: "6 guests . 4 bedrooms . 4 beds . 2 baths . FREE Golf Cart"
+    },
+    {
+        id: 14,
         type: "River",
         name: "Tarpon Springs",
         imageUrls: ['Tarpon-Springs.jpg', 'Tarpon-Springs-LivingRoom.jpg', 'Tarpon-Springs-DiningRoom.jpg', 'Tarpon-Springs-Kitchen.jpg', 'Tarpon-Springs-Gameroom.jpg', 'Tarpon-Springs-UtilityRoom.jpg', 'Tarpon-Springs-Bedroom1.jpg', 'Tarpon-Springs-Bedroom2.jpg', 'Tarpon-Springs-Bedroom3.jpg', 'Tarpon-Springs-Outdoor1.jpg', 'Tarpon-Springs-Outdoor2.jpg', 'Tarpon-Springs-Bathroom2.jpg', 'Tarpon-Springs-Bathroom1.jpg',],
@@ -142,7 +152,7 @@ export const addresses = [
         estimatedPrice: ""
     },
     {
-        id: 14,
+        id: 15,
         type: "State",
         name: "Waynesville",
         imageUrls: ['Waynesville.jpg', 'Waynesville-Backyard.jpg', 'Waynesville-Living-Room.jpg', 'Waynesville-Kitchen.jpg', 'Waynesville-Dining.jpg', 'Waynesville-Bedroom1.jpg', 'Waynesville-Bedroom2.jpg', 'Waynesville-Bedroom3.jpg', 'Waynesville-Bedroom4.jpg', 'Waynesville-Bathroom1.jpg', 'Waynesville-Bathroom2.jpg', 'Waynesville-Bathroom3.jpg', 'Waynesville-Gameroom.jpg', 'Waynesville-Exterior.jpg', 'Waynesville-Hottub.jpg'],
@@ -196,13 +206,20 @@ export const locations = [{
     },
     {
         id: 13,
+        name: "Waterfront - Palm Harbor",
+        imageUrl: ['/assets/images/Palm-Harbor-Living-Room.jpg'],
+        location: "Palm Harbor, FL",
+        tags: ['6 guests . 4 bedrooms . 4 beds . 2 baths . FREE Golf Cart']
+    },
+    {
+        id: 14,
         name: "Riverside Dr.",
         imageUrl: ['/assets/images/Tarpon-Springs.jpg'],
         location: "Tarpon Springs, FL",
         tags: ['8 guests . 3 bedrooms . 5 beds . 2 baths']
     },
     {
-        id: 14,
+        id: 15,
         name: "Brushy Creek Ln.",
         imageUrl: ['/assets/images/Waynesville.jpg'],
         location: "Waynesville, North Carolina",
