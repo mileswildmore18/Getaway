@@ -138,7 +138,7 @@ export const addresses = [
         itinerary: [{location: "Palm Harbor"}],
         tags: [' Waterfront |', 'Boat Slip', ' Wifi |', ' Free parking on premises |', ' TV |', ' Free dryer - In unit |', ' Kitchen |', ' Dedicated workspace |', ' Pool |', ' Washer |', ' Air conditioning '],
         address: "301 Banana St. Palm Harbor, FL 34683",
-        description: "6 guests . 4 bedrooms . 4 beds . 2 baths . FREE Golf Cart"
+        description: "6 guests . 4 bedrooms . 4 beds . 2 baths . Boat Dock . FREE Golf Cart"
     },
     {
         id: 14,
@@ -209,7 +209,7 @@ export const locations = [{
         name: "Waterfront - Palm Harbor",
         imageUrl: ['/assets/images/Palm-Harbor-Living-Room.jpg'],
         location: "Palm Harbor, FL",
-        tags: ['6 guests . 4 bedrooms . 4 beds . 2 baths . Boat Slip . FREE Golf Cart']
+        tags: ['6 guests . 4 bedrooms . 4 beds . 2 baths . Boat Dock . FREE Golf Cart']
     },
     {
         id: 14,
